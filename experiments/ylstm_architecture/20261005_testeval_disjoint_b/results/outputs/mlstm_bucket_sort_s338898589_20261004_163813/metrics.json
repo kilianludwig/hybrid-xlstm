@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.11242961622968006,
+      "val_loss": 0.014294557430548593,
+      "val/accuracy": 0.9764,
+      "val/token_accuracy": 0.997375,
+      "loss": 0.11242961622968006,
+      "accuracy": 0.9764,
+      "token_accuracy": 0.997375,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 8.029496849514544,
+      "time/train_seconds": 5.136162791401148,
+      "time/eval_seconds": 2.893310439772904
+    }
+  ],
+  "epochs": 1,
+  "run_name": "mlstm_bucket_sort_s338898589_20261004_163813",
+  "timestamp": "2026-10-04T16:38:26.276778",
+  "seed": 338898589,
+  "final": {
+    "test_accuracy": 0.972,
+    "test_token_accuracy": 0.997025,
+    "test_loss": 0.01459715134697035,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.11242961622968006,
+    "val_loss": 0.014294557430548593,
+    "accuracy": 0.9764,
+    "val_accuracy": 0.9764,
+    "token_accuracy": 0.997375,
+    "val_token_accuracy": 0.997375,
+    "test_accuracy": 0.972,
+    "test_token_accuracy": 0.997025,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

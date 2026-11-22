@@ -1,0 +1,7 @@
+name: xlstm_competitiveness
+title: Published baseline tables
+description: >-
+  Selected learning rates and matched parameter counts for the published
+  LSTM, GRU, Transformer, Mamba, sLSTM, mLSTM, and xLSTM runs.
+  Those models train from the root registry under the ylstm_architecture group.
+default_group: false

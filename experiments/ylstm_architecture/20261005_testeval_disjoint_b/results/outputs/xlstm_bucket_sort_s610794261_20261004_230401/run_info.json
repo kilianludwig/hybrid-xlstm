@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_bucket_sort_s610794261_20261004_230401",
+  "timestamp": "2026-10-04T23:04:56.229782",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52191,
+    "total": 52191
+  },
+  "training_time_seconds": 40.79,
+  "task": "bucket_sort",
+  "model": "xlstm",
+  "seed": 610794261,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 40.7609,
+  "train_seconds_total": 27.91,
+  "eval_seconds_total": 12.86,
+  "extra": {
+    "task": "bucket_sort",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52191,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

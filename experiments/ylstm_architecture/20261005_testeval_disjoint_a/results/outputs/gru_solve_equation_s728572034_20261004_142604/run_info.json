@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_solve_equation_s728572034_20261004_142604",
+  "timestamp": "2026-10-04T14:33:07.406656",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 53055,
+    "total": 53055
+  },
+  "training_time_seconds": 416.28,
+  "task": "solve_equation",
+  "model": "gru",
+  "seed": 728572034,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 3.2478,
+  "train_seconds_total": 355.62,
+  "eval_seconds_total": 60.09,
+  "extra": {
+    "task": "solve_equation",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 53055,
+    "optimizer": "adam",
+    "learning_rate": 0.003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

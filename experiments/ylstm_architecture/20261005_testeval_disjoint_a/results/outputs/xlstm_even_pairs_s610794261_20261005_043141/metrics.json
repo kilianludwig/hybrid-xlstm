@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.19575284055930514,
+      "val_loss": 0.00015368115382443647,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.19575284055930514,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 30.59055494191125,
+      "time/train_seconds": 28.32106632180512,
+      "time/eval_seconds": 2.2694601248949766
+    }
+  ],
+  "epochs": 1,
+  "run_name": "xlstm_even_pairs_s610794261_20261005_043141",
+  "timestamp": "2026-10-05T04:32:15.736393",
+  "seed": 610794261,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.0001537602860480547,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.19575284055930514,
+    "val_loss": 0.00015368115382443647,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

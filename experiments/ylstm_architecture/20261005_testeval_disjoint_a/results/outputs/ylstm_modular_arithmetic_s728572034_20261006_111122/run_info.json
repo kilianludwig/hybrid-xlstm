@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_modular_arithmetic_s728572034_20261006_111122",
+  "timestamp": "2026-10-06T12:20:07.403383",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52917,
+    "total": 52917
+  },
+  "training_time_seconds": 4121.18,
+  "task": "modular_arithmetic",
+  "model": "ylstm",
+  "seed": 728572034,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 32.1938,
+  "train_seconds_total": 3970.78,
+  "eval_seconds_total": 150.03,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "ylstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52917,
+    "optimizer": "adamw",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

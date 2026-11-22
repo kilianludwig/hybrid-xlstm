@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c4_solve_equation_s1451051987_20261008_122517",
+  "timestamp": "2026-10-08T12:52:13.196180",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52981,
+    "total": 52981
+  },
+  "training_time_seconds": 1611.6,
+  "task": "solve_equation",
+  "model": "ylstm_hb_c4",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 12.5859,
+  "train_seconds_total": 1550.73,
+  "eval_seconds_total": 60.27,
+  "extra": {
+    "task": "solve_equation",
+    "model": "ylstm_hb_c4",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52981,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

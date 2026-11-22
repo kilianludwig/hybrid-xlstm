@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c8_modular_arithmetic_brackets_s728572034_20261009_111443",
+  "timestamp": "2026-10-09T11:32:14.686854",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52981,
+    "total": 52981
+  },
+  "training_time_seconds": 1046.58,
+  "task": "modular_arithmetic_brackets",
+  "model": "ylstm_hb_c8",
+  "seed": 728572034,
+  "epochs_timed": 106,
+  "mean_epoch_seconds": 9.8516,
+  "train_seconds_total": 1001.87,
+  "eval_seconds_total": 42.4,
+  "extra": {
+    "task": "modular_arithmetic_brackets",
+    "model": "ylstm_hb_c8",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52981,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

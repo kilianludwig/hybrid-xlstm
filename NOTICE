@@ -1,0 +1,23 @@
+hybrid-xlstm
+Copyright 2026 Kilian Ludwig
+
+This product includes software developed for the thesis
+"Hybrid xLSTM: Recurrence and Linear Attention at the Block and Cell Level".
+
+The manuscript hybrid-xlstm-thesis.pdf is licensed under the terms of
+its official publication at Johannes Kepler University Linz.
+
+Task implementations in ml/tasks/chomsky_hierarchy/ derived from the
+DeepMind Neural Networks and the Chomsky Hierarchy benchmark are
+Copyright 2024 DeepMind Technologies Limited and remain under the
+Apache License, Version 2.0. See ml/tasks/chomsky_hierarchy/LICENSE.
+
+The multi-query associative recall generator in ml/tasks/mqar/ follows
+Zoology (Arora, Eyuboglu, et al., 2023), licensed under the Apache
+License, Version 2.0: https://github.com/HazyResearch/zoology
+
+The font files assets/fonts/Merriweather-Regular.ttf and
+assets/fonts/Merriweather-Bold.ttf are Copyright 2016 The Merriweather
+Project Authors, with Reserved Font Name "Merriweather", and are
+licensed under the SIL Open Font License, Version 1.1. See
+assets/fonts/Merriweather-LICENSE.txt.

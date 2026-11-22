@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6506627074445779,
+      "val_loss": 0.6499911919236183,
+      "val/accuracy": 0.5696,
+      "val/token_accuracy": 0.5696,
+      "loss": 0.6506627074445779,
+      "accuracy": 0.5696,
+      "token_accuracy": 0.5696,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 25.06550769507885,
+      "time/train_seconds": 24.172182340174913,
+      "time/eval_seconds": 0.8933023503050208
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.2885511680629838,
+      "val_loss": 0.00044836623592345857,
+      "val/accuracy": 0.9998,
+      "val/token_accuracy": 0.9998,
+      "loss": 0.2885511680629838,
+      "accuracy": 0.9998,
+      "token_accuracy": 0.9998,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 25.162531761452556,
+      "time/train_seconds": 24.260852251201868,
+      "time/eval_seconds": 0.9016565773636103
+    }
+  ],
+  "epochs": 2,
+  "run_name": "ylstm_hb_c2_even_pairs_s728572034_20261008_182311",
+  "timestamp": "2026-10-08T18:24:03.625072",
+  "seed": 728572034,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 7.957801872180426e-05,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.2885511680629838,
+    "val_loss": 0.00044836623592345857,
+    "accuracy": 0.9998,
+    "val_accuracy": 0.9998,
+    "token_accuracy": 0.9998,
+    "val_token_accuracy": 0.9998,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

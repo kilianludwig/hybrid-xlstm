@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_parity_check_s1451051987_20261004_143739",
+  "timestamp": "2026-10-04T14:48:47.394377",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52144,
+    "total": 52144
+  },
+  "training_time_seconds": 665.9,
+  "task": "parity_check",
+  "model": "mamba",
+  "seed": 1451051987,
+  "epochs_timed": 111,
+  "mean_epoch_seconds": 5.9943,
+  "train_seconds_total": 633.62,
+  "eval_seconds_total": 31.74,
+  "extra": {
+    "task": "parity_check",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52144,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

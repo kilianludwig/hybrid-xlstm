@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_even_pairs_s610794261_20261004_144103",
+  "timestamp": "2026-10-04T14:41:16.588515",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52144,
+    "total": 52144
+  },
+  "training_time_seconds": 11.45,
+  "task": "even_pairs",
+  "model": "mamba",
+  "seed": 610794261,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 5.6957,
+  "train_seconds_total": 10.84,
+  "eval_seconds_total": 0.55,
+  "extra": {
+    "task": "even_pairs",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52144,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

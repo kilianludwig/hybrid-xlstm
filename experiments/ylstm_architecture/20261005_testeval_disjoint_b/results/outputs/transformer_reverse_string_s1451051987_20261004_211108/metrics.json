@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.14637514003549243,
+      "val_loss": 4.624013836291851e-05,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.14637514003549243,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 3.443423136137426,
+      "time/train_seconds": 2.5040345638990402,
+      "time/eval_seconds": 0.9393568811938167
+    }
+  ],
+  "epochs": 1,
+  "run_name": "transformer_reverse_string_s1451051987_20261004_211108",
+  "timestamp": "2026-10-04T21:11:14.340358",
+  "seed": 1451051987,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 4.6239290531957523e-05,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.14637514003549243,
+    "val_loss": 4.624013836291851e-05,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

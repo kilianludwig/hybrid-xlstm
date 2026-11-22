@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6936986404485976,
+      "val_loss": 0.6932083636522293,
+      "val/accuracy": 0.4962,
+      "val/token_accuracy": 0.4962,
+      "loss": 0.6936986404485976,
+      "accuracy": 0.4962,
+      "token_accuracy": 0.4962,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 5.692536317743361,
+      "time/train_seconds": 5.41842723172158,
+      "time/eval_seconds": 0.2740826578810811
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.08236568727398463,
+      "val_loss": 0.0,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.08236568727398463,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 5.698779512196779,
+      "time/train_seconds": 5.422907231375575,
+      "time/eval_seconds": 0.2758461479097605
+    }
+  ],
+  "epochs": 2,
+  "run_name": "mamba_even_pairs_s610794261_20261004_144103",
+  "timestamp": "2026-10-04T14:41:16.585310",
+  "seed": 610794261,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.0,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.08236568727398463,
+    "val_loss": 0.0,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

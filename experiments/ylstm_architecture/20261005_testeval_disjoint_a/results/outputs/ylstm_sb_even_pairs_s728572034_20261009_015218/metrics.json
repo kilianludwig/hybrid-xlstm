@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.25287915824246915,
+      "val_loss": 0.00017840089385572354,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.25287915824246915,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 36.35947118047625,
+      "time/train_seconds": 35.04317606240511,
+      "time/eval_seconds": 1.3162745544686913
+    }
+  ],
+  "epochs": 1,
+  "run_name": "ylstm_sb_even_pairs_s728572034_20261009_015218",
+  "timestamp": "2026-10-09T01:52:57.183790",
+  "seed": 728572034,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.00017707719562167767,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.25287915824246915,
+    "val_loss": 0.00017840089385572354,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

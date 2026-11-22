@@ -1,0 +1,37 @@
+{
+  "run_name": "transformer_mqar_s338898589_20261117_170617",
+  "timestamp": "2026-11-17T17:06:31.990513",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 132282,
+    "total": 132282
+  },
+  "training_time_seconds": 7.27,
+  "task": "mqar",
+  "model": "transformer",
+  "seed": 338898589,
+  "epochs_timed": 3,
+  "mean_epoch_seconds": 2.3734,
+  "train_seconds_total": 6.78,
+  "eval_seconds_total": 0.34,
+  "sweep_group": "experiments/ylstm_architecture/20261117_1606_transformer_mqar_causal_5seed/results/outputs",
+  "config_id": "20261117_1606_transformer_mqar_causal_5seed",
+  "extra": {
+    "task": "mqar",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 132282,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

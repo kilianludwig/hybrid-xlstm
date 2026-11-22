@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_binary_addition_s728572034_20261005_040706",
+  "timestamp": "2026-10-05T04:10:49.169614",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52239,
+    "total": 52239
+  },
+  "training_time_seconds": 217.23,
+  "task": "binary_addition",
+  "model": "transformer",
+  "seed": 728572034,
+  "epochs_timed": 15,
+  "mean_epoch_seconds": 14.4412,
+  "train_seconds_total": 175.08,
+  "eval_seconds_total": 41.54,
+  "extra": {
+    "task": "binary_addition",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52239,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

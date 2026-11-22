@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_hb_bucket_sort_s610794261_20261005_182954",
+  "timestamp": "2026-10-05T18:30:16.415403",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52159,
+    "total": 52159
+  },
+  "training_time_seconds": 19.3,
+  "task": "bucket_sort",
+  "model": "mlstm_hb",
+  "seed": 610794261,
+  "epochs_timed": 4,
+  "mean_epoch_seconds": 4.7957,
+  "train_seconds_total": 13.04,
+  "eval_seconds_total": 6.14,
+  "extra": {
+    "task": "bucket_sort",
+    "model": "mlstm_hb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52159,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

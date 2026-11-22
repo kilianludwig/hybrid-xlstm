@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_modular_arithmetic_s610794261_20261004_210202",
+  "timestamp": "2026-10-04T21:07:42.348501",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52667,
+    "total": 52667
+  },
+  "training_time_seconds": 337.81,
+  "task": "modular_arithmetic",
+  "model": "transformer",
+  "seed": 610794261,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 2.6358,
+  "train_seconds_total": 322.13,
+  "eval_seconds_total": 15.25,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52667,
+    "optimizer": "adamw",
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

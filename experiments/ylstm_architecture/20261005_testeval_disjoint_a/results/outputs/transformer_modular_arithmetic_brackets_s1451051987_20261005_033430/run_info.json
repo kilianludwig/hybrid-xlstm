@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_modular_arithmetic_brackets_s1451051987_20261005_033430",
+  "timestamp": "2026-10-05T03:55:48.850847",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52775,
+    "total": 52775
+  },
+  "training_time_seconds": 1273.14,
+  "task": "modular_arithmetic_brackets",
+  "model": "transformer",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 9.9346,
+  "train_seconds_total": 1176.83,
+  "eval_seconds_total": 94.78,
+  "extra": {
+    "task": "modular_arithmetic_brackets",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52775,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

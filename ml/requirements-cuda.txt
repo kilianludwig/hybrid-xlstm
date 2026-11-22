@@ -1,0 +1,17 @@
+# CUDA-dependent packages — require NVIDIA CUDA toolkit, nvcc, and ninja.
+#
+# These are separated from requirements.txt because they need:
+#   1. CUDA_HOME set (point to wherever nvcc lives, e.g. $CONDA_PREFIX)
+#   2. nvcc on PATH
+#   3. A CUDA-enabled PyTorch already installed
+#   4. --no-build-isolation so builds link against the installed torch
+#
+# Manual install (after the environment that provides Python is active):
+#   conda install -y -c nvidia cuda-toolkit    # provides nvcc in $CONDA_PREFIX
+#   export CUDA_HOME=$CONDA_PREFIX
+#   pip install -r ml/requirements-cuda.txt --no-build-isolation
+
+ninja                 # JIT build backend for CUDA kernel compilation
+causal-conv1d>=1.4.0  # Dependency of mamba-ssm (fused CUDA conv1d)
+mamba-ssm>=2.2.2      # Official CUDA-optimized Mamba SSM
+xlstm>=2.0.5          # xLSTM — sLSTM uses CUDA kernels when available

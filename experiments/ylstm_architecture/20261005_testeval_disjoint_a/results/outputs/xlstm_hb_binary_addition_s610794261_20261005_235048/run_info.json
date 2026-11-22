@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_hb_binary_addition_s610794261_20261005_235048",
+  "timestamp": "2026-10-05T23:52:51.706254",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52657,
+    "total": 52657
+  },
+  "training_time_seconds": 114.73,
+  "task": "binary_addition",
+  "model": "xlstm_hb",
+  "seed": 610794261,
+  "epochs_timed": 6,
+  "mean_epoch_seconds": 19.0917,
+  "train_seconds_total": 78.25,
+  "eval_seconds_total": 36.3,
+  "extra": {
+    "task": "binary_addition",
+    "model": "xlstm_hb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52657,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

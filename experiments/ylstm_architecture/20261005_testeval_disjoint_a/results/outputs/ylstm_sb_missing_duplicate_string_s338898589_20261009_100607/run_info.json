@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_sb_missing_duplicate_string_s338898589_20261009_100607",
+  "timestamp": "2026-10-09T10:08:16.438275",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52018,
+    "total": 52018
+  },
+  "training_time_seconds": 127.3,
+  "task": "missing_duplicate_string",
+  "model": "ylstm_sb",
+  "seed": 338898589,
+  "epochs_timed": 3,
+  "mean_epoch_seconds": 42.407,
+  "train_seconds_total": 126.82,
+  "eval_seconds_total": 0.4,
+  "extra": {
+    "task": "missing_duplicate_string",
+    "model": "ylstm_sb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52018,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

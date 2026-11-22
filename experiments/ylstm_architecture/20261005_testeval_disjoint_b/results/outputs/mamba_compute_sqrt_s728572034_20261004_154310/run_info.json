@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_compute_sqrt_s728572034_20261004_154310",
+  "timestamp": "2026-10-04T15:45:47.191125",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52144,
+    "total": 52144
+  },
+  "training_time_seconds": 152.27,
+  "task": "compute_sqrt",
+  "model": "mamba",
+  "seed": 728572034,
+  "epochs_timed": 18,
+  "mean_epoch_seconds": 8.4407,
+  "train_seconds_total": 117.34,
+  "eval_seconds_total": 34.59,
+  "extra": {
+    "task": "compute_sqrt",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52144,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

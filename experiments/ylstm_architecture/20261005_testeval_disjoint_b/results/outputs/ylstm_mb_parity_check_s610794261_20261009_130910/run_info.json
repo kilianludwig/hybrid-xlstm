@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_mb_parity_check_s610794261_20261009_130910",
+  "timestamp": "2026-10-09T14:40:30.675241",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52328,
+    "total": 52328
+  },
+  "training_time_seconds": 5477.12,
+  "task": "parity_check",
+  "model": "ylstm_mb",
+  "seed": 610794261,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 42.787,
+  "train_seconds_total": 5283.04,
+  "eval_seconds_total": 193.7,
+  "extra": {
+    "task": "parity_check",
+    "model": "ylstm_mb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52328,
+    "optimizer": "adamw",
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

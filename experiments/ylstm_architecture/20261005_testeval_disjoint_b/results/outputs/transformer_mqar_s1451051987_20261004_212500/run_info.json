@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_mqar_s1451051987_20261004_212500",
+  "timestamp": "2026-10-04T21:26:10.400895",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 132282,
+    "total": 132282
+  },
+  "training_time_seconds": 61.56,
+  "task": "mqar",
+  "model": "transformer",
+  "seed": 1451051987,
+  "epochs_timed": 23,
+  "mean_epoch_seconds": 2.6557,
+  "train_seconds_total": 58.23,
+  "eval_seconds_total": 2.85,
+  "extra": {
+    "task": "mqar",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 132282,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

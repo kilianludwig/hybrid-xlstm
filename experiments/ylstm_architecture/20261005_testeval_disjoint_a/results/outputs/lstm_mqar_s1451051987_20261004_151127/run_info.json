@@ -1,0 +1,32 @@
+{
+  "run_name": "lstm_mqar_s1451051987_20261004_151127",
+  "timestamp": "2026-10-04T15:18:01.529949",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 132352,
+    "total": 132352
+  },
+  "training_time_seconds": 386.06,
+  "task": "mqar",
+  "model": "lstm",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 3.0109,
+  "train_seconds_total": 327.43,
+  "eval_seconds_total": 57.97,
+  "extra": {
+    "task": "mqar",
+    "model": "lstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 132352,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

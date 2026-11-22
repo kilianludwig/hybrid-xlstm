@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_even_pairs_s338898589_20261006_144534",
+  "timestamp": "2026-10-06T14:46:27.995484",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51076,
+    "total": 51076
+  },
+  "training_time_seconds": 49.49,
+  "task": "even_pairs",
+  "model": "ylstm",
+  "seed": 338898589,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 49.4235,
+  "train_seconds_total": 47.38,
+  "eval_seconds_total": 2.05,
+  "extra": {
+    "task": "even_pairs",
+    "model": "ylstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51076,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

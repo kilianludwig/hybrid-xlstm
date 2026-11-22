@@ -1,0 +1,13 @@
+# Canonical learning_rate HPO sweep cloned from 20260428_2318_seq16.
+# Values: configs.search_space.AXIS_DEFAULTS['learning_rate'] (see hpo/README.md).
+axes:
+  learning_rate:
+  - 1.0e-05
+  - 3.0e-05
+  - 0.0001
+  - 0.0003
+  - 0.001
+  - 0.003
+  - 0.01
+seeds:
+  default: 1

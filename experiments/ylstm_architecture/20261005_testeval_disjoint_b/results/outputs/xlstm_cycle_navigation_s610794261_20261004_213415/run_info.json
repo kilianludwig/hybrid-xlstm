@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_cycle_navigation_s610794261_20261004_213415",
+  "timestamp": "2026-10-04T21:47:14.285304",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52075,
+    "total": 52075
+  },
+  "training_time_seconds": 777.15,
+  "task": "cycle_navigation",
+  "model": "xlstm",
+  "seed": 610794261,
+  "epochs_timed": 47,
+  "mean_epoch_seconds": 16.527,
+  "train_seconds_total": 744.99,
+  "eval_seconds_total": 31.77,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52075,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

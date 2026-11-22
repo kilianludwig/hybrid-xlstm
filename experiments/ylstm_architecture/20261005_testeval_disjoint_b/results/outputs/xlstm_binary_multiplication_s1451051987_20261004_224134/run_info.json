@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_binary_multiplication_s1451051987_20261004_224134",
+  "timestamp": "2026-10-05T00:06:17.871502",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51963,
+    "total": 51963
+  },
+  "training_time_seconds": 5068.07,
+  "task": "binary_multiplication",
+  "model": "xlstm",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 39.5831,
+  "train_seconds_total": 3405.39,
+  "eval_seconds_total": 1661.24,
+  "extra": {
+    "task": "binary_multiplication",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51963,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.1610081469242957,
+      "val_loss": 9.80559320851171e-06,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.1610081469242957,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 12.184023293666542,
+      "time/train_seconds": 11.738904310856014,
+      "time/eval_seconds": 0.44509960198774934
+    }
+  ],
+  "epochs": 1,
+  "run_name": "slstm_bare_even_pairs_s338898589_20261005_185408",
+  "timestamp": "2026-10-05T18:54:21.936752",
+  "seed": 338898589,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 1.0147174907615409e-05,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.1610081469242957,
+    "val_loss": 9.80559320851171e-06,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_missing_duplicate_string_s1451051987_20261005_042537",
+  "timestamp": "2026-10-05T04:26:06.602913",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52238,
+    "total": 52238
+  },
+  "training_time_seconds": 26.8,
+  "task": "missing_duplicate_string",
+  "model": "transformer",
+  "seed": 1451051987,
+  "epochs_timed": 3,
+  "mean_epoch_seconds": 8.8725,
+  "train_seconds_total": 26.42,
+  "eval_seconds_total": 0.2,
+  "extra": {
+    "task": "missing_duplicate_string",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52238,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "yhlstm_binary_multiplication_s1451051987_20261006_063926",
+  "timestamp": "2026-10-06T10:33:24.274957",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 54491,
+    "total": 54491
+  },
+  "training_time_seconds": 13998.24,
+  "task": "binary_multiplication",
+  "model": "yhlstm",
+  "seed": 1451051987,
+  "epochs_timed": 114,
+  "mean_epoch_seconds": 122.7769,
+  "train_seconds_total": 9717.71,
+  "eval_seconds_total": 4278.85,
+  "extra": {
+    "task": "binary_multiplication",
+    "model": "yhlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 54491,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

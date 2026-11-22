@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_even_pairs_s610794261_20261005_031933",
+  "timestamp": "2026-10-05T03:19:51.801264",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52136,
+    "total": 52136
+  },
+  "training_time_seconds": 15.8,
+  "task": "even_pairs",
+  "model": "transformer",
+  "seed": 610794261,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 7.8258,
+  "train_seconds_total": 14.34,
+  "eval_seconds_total": 1.31,
+  "extra": {
+    "task": "even_pairs",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52136,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

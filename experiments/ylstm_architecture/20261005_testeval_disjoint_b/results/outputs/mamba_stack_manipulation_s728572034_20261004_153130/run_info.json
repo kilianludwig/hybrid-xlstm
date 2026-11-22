@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_stack_manipulation_s728572034_20261004_153130",
+  "timestamp": "2026-10-04T15:35:07.423012",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52383,
+    "total": 52383
+  },
+  "training_time_seconds": 204.72,
+  "task": "stack_manipulation",
+  "model": "mamba",
+  "seed": 728572034,
+  "epochs_timed": 13,
+  "mean_epoch_seconds": 15.7324,
+  "train_seconds_total": 141.4,
+  "eval_seconds_total": 63.13,
+  "extra": {
+    "task": "stack_manipulation",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52383,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

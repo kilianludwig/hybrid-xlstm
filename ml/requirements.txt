@@ -1,0 +1,26 @@
+# Requires Python 3.10 or newer.
+# PyTorch stays on the 2.5 series recorded for the throughput benchmark
+# (2.5.1+cu121). Confirmation runs did not save a package freeze.
+
+# Core dependencies
+torch>=2.5.1,<2.6
+numpy>=1.26
+tqdm>=4.66
+pyyaml>=6.0
+pydantic>=2.0.0
+chex>=0.1.0
+jax>=0.4
+dm-tree>=0.1.0
+
+# Visualization
+matplotlib>=3.8
+
+# Interactive CLI
+rich>=13.0
+
+# Pure-PyTorch Mamba (works on CPU/MPS/CUDA — no CUDA toolkit needed)
+mambapy>=1.2.0
+
+# CUDA-dependent packages live in requirements-cuda.txt and must be installed
+# separately with CUDA_HOME set.  For a manual install see requirements-cuda.txt.
+# Packages: mamba-ssm, xlstm, causal-conv1d, ninja

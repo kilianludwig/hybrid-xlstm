@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_compute_sqrt_s338898589_20261005_041651",
+  "timestamp": "2026-10-05T04:27:34.439451",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52136,
+    "total": 52136
+  },
+  "training_time_seconds": 638.31,
+  "task": "compute_sqrt",
+  "model": "transformer",
+  "seed": 338898589,
+  "epochs_timed": 47,
+  "mean_epoch_seconds": 13.5634,
+  "train_seconds_total": 530.58,
+  "eval_seconds_total": 106.9,
+  "extra": {
+    "task": "compute_sqrt",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52136,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

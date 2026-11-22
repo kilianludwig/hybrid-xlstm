@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_hb_compute_sqrt_s728572034_20261005_180022",
+  "timestamp": "2026-10-05T18:10:57.460309",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51832,
+    "total": 51832
+  },
+  "training_time_seconds": 631.78,
+  "task": "compute_sqrt",
+  "model": "mlstm_hb",
+  "seed": 728572034,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 4.9255,
+  "train_seconds_total": 508.69,
+  "eval_seconds_total": 121.77,
+  "extra": {
+    "task": "compute_sqrt",
+    "model": "mlstm_hb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51832,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

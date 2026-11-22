@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_mb_stack_manipulation_s610794261_20261008_210159",
+  "timestamp": "2026-10-08T21:18:37.222710",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52459,
+    "total": 52459
+  },
+  "training_time_seconds": 962.82,
+  "task": "stack_manipulation",
+  "model": "ylstm_mb",
+  "seed": 610794261,
+  "epochs_timed": 10,
+  "mean_epoch_seconds": 96.2566,
+  "train_seconds_total": 659.42,
+  "eval_seconds_total": 303.14,
+  "extra": {
+    "task": "stack_manipulation",
+    "model": "ylstm_mb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52459,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

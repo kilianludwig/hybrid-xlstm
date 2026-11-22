@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_bare_cycle_navigation_s865314009_20261005_191234",
+  "timestamp": "2026-10-05T19:15:03.195934",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51031,
+    "total": 51031
+  },
+  "training_time_seconds": 146.59,
+  "task": "cycle_navigation",
+  "model": "slstm_bare",
+  "seed": 865314009,
+  "epochs_timed": 10,
+  "mean_epoch_seconds": 14.6503,
+  "train_seconds_total": 140.89,
+  "eval_seconds_total": 5.62,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "slstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51031,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_modular_arithmetic_s1451051987_20261004_141139",
+  "timestamp": "2026-10-04T14:14:44.312448",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52599,
+    "total": 52599
+  },
+  "training_time_seconds": 181.93,
+  "task": "modular_arithmetic",
+  "model": "gru",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 1.418,
+  "train_seconds_total": 171.13,
+  "eval_seconds_total": 10.37,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52599,
+    "optimizer": "adam",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

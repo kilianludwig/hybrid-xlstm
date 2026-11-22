@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.5542577436556831,
+      "val_loss": 0.5100884534418583,
+      "val/accuracy": 0.3286,
+      "val/token_accuracy": 0.8242455330426605,
+      "loss": 0.5542577436556831,
+      "accuracy": 0.3286,
+      "token_accuracy": 0.8242455330426605,
+      "lr": 0.01,
+      "weight_decay": 0.0,
+      "time/epoch_seconds": 8.477801337372512,
+      "time/train_seconds": 6.83174824109301,
+      "time/eval_seconds": 1.646015974227339
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.06946937496901844,
+      "val_loss": 0.05604978182818741,
+      "val/accuracy": 0.9526,
+      "val/token_accuracy": 0.9883730871163546,
+      "loss": 0.06946937496901844,
+      "accuracy": 0.9526,
+      "token_accuracy": 0.9883730871163546,
+      "lr": 0.01,
+      "weight_decay": 0.0,
+      "time/epoch_seconds": 7.7812241250649095,
+      "time/train_seconds": 6.380597261246294,
+      "time/eval_seconds": 1.4006032729521394
+    }
+  ],
+  "epochs": 2,
+  "run_name": "gru_stack_manipulation_s1451051987_20261004_142852",
+  "timestamp": "2026-10-04T14:29:20.024380",
+  "seed": 1451051987,
+  "final": {
+    "test_accuracy": 0.9516,
+    "test_token_accuracy": 0.9887354278486206,
+    "test_loss": 0.05373627609806135,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.06946937496901844,
+    "val_loss": 0.05604978182818741,
+    "accuracy": 0.9526,
+    "val_accuracy": 0.9526,
+    "token_accuracy": 0.9883730871163546,
+    "val_token_accuracy": 0.9883730871163546,
+    "test_accuracy": 0.9516,
+    "test_token_accuracy": 0.9887354278486206,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

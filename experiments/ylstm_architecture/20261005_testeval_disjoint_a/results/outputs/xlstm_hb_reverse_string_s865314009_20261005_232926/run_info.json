@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_hb_reverse_string_s865314009_20261005_232926",
+  "timestamp": "2026-10-05T23:30:28.156666",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52558,
+    "total": 52558
+  },
+  "training_time_seconds": 54.86,
+  "task": "reverse_string",
+  "model": "xlstm_hb",
+  "seed": 865314009,
+  "epochs_timed": 3,
+  "mean_epoch_seconds": 18.2528,
+  "train_seconds_total": 38.08,
+  "eval_seconds_total": 16.68,
+  "extra": {
+    "task": "reverse_string",
+    "model": "xlstm_hb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52558,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

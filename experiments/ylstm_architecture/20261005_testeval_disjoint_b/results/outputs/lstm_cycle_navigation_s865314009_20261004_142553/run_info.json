@@ -1,0 +1,32 @@
+{
+  "run_name": "lstm_cycle_navigation_s865314009_20261004_142553",
+  "timestamp": "2026-10-04T14:26:37.317431",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51287,
+    "total": 51287
+  },
+  "training_time_seconds": 42.51,
+  "task": "cycle_navigation",
+  "model": "lstm",
+  "seed": 865314009,
+  "epochs_timed": 29,
+  "mean_epoch_seconds": 1.4559,
+  "train_seconds_total": 39.89,
+  "eval_seconds_total": 2.33,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "lstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51287,
+    "optimizer": "adam",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

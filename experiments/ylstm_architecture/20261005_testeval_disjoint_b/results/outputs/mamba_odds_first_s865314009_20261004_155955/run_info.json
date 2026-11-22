@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_odds_first_s865314009_20261004_155955",
+  "timestamp": "2026-10-04T16:04:35.892507",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52144,
+    "total": 52144
+  },
+  "training_time_seconds": 272.16,
+  "task": "odds_first",
+  "model": "mamba",
+  "seed": 865314009,
+  "epochs_timed": 14,
+  "mean_epoch_seconds": 19.4171,
+  "train_seconds_total": 170.34,
+  "eval_seconds_total": 101.5,
+  "extra": {
+    "task": "odds_first",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52144,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6937791571830408,
+      "val_loss": 0.693239314854145,
+      "val/accuracy": 0.502,
+      "val/token_accuracy": 0.502,
+      "loss": 0.6937791571830408,
+      "accuracy": 0.502,
+      "token_accuracy": 0.502,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 16.784304636064917,
+      "time/train_seconds": 15.85968961007893,
+      "time/eval_seconds": 0.9245846490375698
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.6939294004973512,
+      "val_loss": 0.6939547702670097,
+      "val/accuracy": 0.498,
+      "val/token_accuracy": 0.498,
+      "loss": 0.6939294004973512,
+      "accuracy": 0.498,
+      "token_accuracy": 0.498,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 17.10085097514093,
+      "time/train_seconds": 16.181292496155947,
+      "time/eval_seconds": 0.9195266668684781
+    },
+    {
+      "epoch": 3,
+      "train/loss": 0.16731785637361057,
+      "val_loss": 0.0,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.16731785637361057,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 17.072889649309218,
+      "time/train_seconds": 16.13290357403457,
+      "time/eval_seconds": 0.9399547032080591
+    }
+  ],
+  "epochs": 3,
+  "run_name": "mamba_even_pairs_s1451051987_20261004_151957",
+  "timestamp": "2026-10-04T15:20:51.452067",
+  "seed": 1451051987,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.0,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 3
+  },
+  "best": {
+    "loss": 0.16731785637361057,
+    "val_loss": 0.0,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 3
+  }
+}

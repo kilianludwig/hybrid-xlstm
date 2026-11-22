@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_binary_multiplication_s610794261_20261004_143236",
+  "timestamp": "2026-10-04T14:42:16.288538",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51075,
+    "total": 51075
+  },
+  "training_time_seconds": 574.56,
+  "task": "binary_multiplication",
+  "model": "gru",
+  "seed": 610794261,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 4.4798,
+  "train_seconds_total": 450.05,
+  "eval_seconds_total": 123.37,
+  "extra": {
+    "task": "binary_multiplication",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51075,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

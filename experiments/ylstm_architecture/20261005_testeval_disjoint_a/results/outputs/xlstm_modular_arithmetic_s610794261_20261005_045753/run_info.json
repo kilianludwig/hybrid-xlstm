@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_modular_arithmetic_s610794261_20261005_045753",
+  "timestamp": "2026-10-05T05:17:03.024077",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52423,
+    "total": 52423
+  },
+  "training_time_seconds": 1144.23,
+  "task": "modular_arithmetic",
+  "model": "xlstm",
+  "seed": 610794261,
+  "epochs_timed": 45,
+  "mean_epoch_seconds": 25.4065,
+  "train_seconds_total": 1064.27,
+  "eval_seconds_total": 79.02,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52423,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

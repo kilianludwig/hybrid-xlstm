@@ -1,0 +1,90 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.5869853726972025,
+      "val_loss": 0.7619227662682533,
+      "val/accuracy": 0.105,
+      "val/token_accuracy": 0.7114446596370418,
+      "loss": 0.5869853726972025,
+      "accuracy": 0.105,
+      "token_accuracy": 0.7114446596370418,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 55.56267635105178,
+      "time/train_seconds": 38.98186799092218,
+      "time/eval_seconds": 16.580777420196682
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.15070077426100786,
+      "val_loss": 0.3807141050696373,
+      "val/accuracy": 0.7036,
+      "val/token_accuracy": 0.9497345957965713,
+      "loss": 0.15070077426100786,
+      "accuracy": 0.7036,
+      "token_accuracy": 0.9497345957965713,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 55.433139054104686,
+      "time/train_seconds": 39.08477862691507,
+      "time/eval_seconds": 16.348339064978063
+    },
+    {
+      "epoch": 3,
+      "train/loss": 0.02258355033691056,
+      "val_loss": 0.7243709627538919,
+      "val/accuracy": 0.6098,
+      "val/token_accuracy": 0.9212753747937737,
+      "loss": 0.02258355033691056,
+      "accuracy": 0.6098,
+      "token_accuracy": 0.9212753747937737,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 54.846037175972015,
+      "time/train_seconds": 39.30005162395537,
+      "time/eval_seconds": 15.545955802313983
+    },
+    {
+      "epoch": 4,
+      "train/loss": 0.011468470846871866,
+      "val_loss": 0.009497700751035154,
+      "val/accuracy": 0.9904,
+      "val/token_accuracy": 0.9984757191019296,
+      "loss": 0.011468470846871866,
+      "accuracy": 0.9904,
+      "token_accuracy": 0.9984757191019296,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 54.92193542793393,
+      "time/train_seconds": 39.07220833096653,
+      "time/eval_seconds": 15.849683597218245
+    }
+  ],
+  "epochs": 4,
+  "run_name": "hlstm_binary_addition_s610794261_20261005_133120",
+  "timestamp": "2026-10-05T13:35:19.454632",
+  "seed": 610794261,
+  "final": {
+    "test_accuracy": 0.9924,
+    "test_token_accuracy": 0.9986021004337073,
+    "test_loss": 0.008982849915446423,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 4
+  },
+  "best": {
+    "loss": 0.011468470846871866,
+    "val_loss": 0.009497700751035154,
+    "accuracy": 0.9904,
+    "val_accuracy": 0.9904,
+    "token_accuracy": 0.9984757191019296,
+    "val_token_accuracy": 0.9984757191019296,
+    "test_accuracy": 0.9924,
+    "test_token_accuracy": 0.9986021004337073,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 4
+  }
+}

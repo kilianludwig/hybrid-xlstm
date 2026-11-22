@@ -1,0 +1,255 @@
+# Public manifest for the runs behind the thesis experiments.
+# Paths are relative to experiments/. The thesis scripts read this file
+# through reporting/thesis_manifest.py.
+
+version: 1
+labels:
+  lstm: LSTM
+  gru: GRU
+  transformer: Transformer
+  mamba: Mamba
+  slstm: sLSTM
+  mlstm: mLSTM
+  slstm_bare: sLSTM, bare stack
+  mlstm_bare: mLSTM, bare stack
+  xlstm: xLSTM
+  hlstm: hLSTM
+  xlstm_hb: xLSTM, hLSTM block
+  ylstm_hb: yLSTM
+  yhlstm: yhLSTM
+  ylstm: yLSTM, bare stack
+  ylstm_sb: yLSTM, sLSTM block
+  ylstm_mb: yLSTM, mLSTM block
+  slstm_hb: sLSTM, hLSTM block
+  mlstm_hb: mLSTM, hLSTM block
+  ylstm_hb_c1: $\ell = 1$
+  ylstm_hb_c2: $\ell = 2$
+  ylstm_hb_c4: $\ell = 4$
+  ylstm_hb_c8: $\ell = 8$
+  ylstm_hb_c0: $\ell = T$
+seeds:
+- 610794261
+- 728572034
+- 338898589
+- 865314009
+- 1451051987
+experiments:
+  E1_headline:
+    title: Published and contributed block architectures
+    section: sec:experiments:headline
+    models:
+      published:
+      - transformer
+      - mamba
+      - slstm
+      - mlstm
+      - xlstm
+      contributed:
+      - ylstm_hb
+      - hlstm
+      - xlstm_hb
+    sources:
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_a
+      models:
+      - transformer
+      - mamba
+      - slstm
+      - mlstm
+      - xlstm
+      - hlstm
+      - xlstm_hb
+      - ylstm_hb
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_b
+      models:
+      - transformer
+      - mamba
+      - slstm
+      - mlstm
+      - xlstm
+      - hlstm
+      - xlstm_hb
+      - ylstm_hb
+    - experiment: ylstm_architecture/20261117_1606_transformer_mqar_causal_5seed
+      models:
+      - transformer
+      tasks:
+      - mqar
+    config_sources:
+    - experiment: xlstm_competitiveness/20260913_2254_best_lr_5seed_ep128_matched
+      models:
+      - transformer
+      - mamba
+      - slstm
+      - mlstm
+      - xlstm
+    - experiment: ylstm_architecture/20260913_2254_hlstm_ylstm_best_lr_5seed_ep128_matched
+      models:
+      - hlstm
+      - xlstm_hb
+      - ylstm_hb
+    lr_sources:
+    - experiment: xlstm_competitiveness/20260428_2318_lr_hpo_7pt
+      models:
+      - transformer
+      - mamba
+      - slstm
+      - mlstm
+      - xlstm
+    - experiment: ylstm_architecture/20260727_1846_hlstm_ylstm_ablations_lr_hpo_7pt
+      models:
+      - hlstm
+      - xlstm_hb
+      - ylstm_hb
+  E1_yhlstm_appendix:
+    title: Exploratory combined yhLSTM variant
+    section: app:yhlstm
+    models:
+      exploratory:
+      - yhlstm
+    sources:
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_a
+      models:
+      - yhlstm
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_b
+      models:
+      - yhlstm
+    config_sources:
+    - experiment: ylstm_architecture/20260913_2254_hlstm_ylstm_best_lr_5seed_ep128_matched
+      models:
+      - yhlstm
+    lr_sources:
+    - experiment: ylstm_architecture/20260727_1846_hlstm_ylstm_ablations_lr_hpo_7pt
+      models:
+      - yhlstm
+  E1_cell_stacks:
+    title: Bare cell stacks
+    section: sec:experiments:cells
+    models:
+      stacks:
+      - slstm_bare
+      - gru
+      - lstm
+      - ylstm
+      - mlstm_bare
+    sources:
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_a
+      models:
+      - slstm_bare
+      - gru
+      - lstm
+      - ylstm
+      - mlstm_bare
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_b
+      models:
+      - slstm_bare
+      - gru
+      - lstm
+      - ylstm
+      - mlstm_bare
+    config_sources:
+    - experiment: xlstm_competitiveness/20260913_2254_best_lr_5seed_ep128_matched
+      models:
+      - lstm
+      - gru
+    - experiment: ylstm_architecture/20260913_2254_hlstm_ylstm_best_lr_5seed_ep128_matched
+      models:
+      - ylstm
+    - experiment: ylstm_architecture/20260927_0745_bare_cell_best_lr_5seed_ep128_matched
+      models:
+      - slstm_bare
+      - mlstm_bare
+    lr_sources:
+    - experiment: xlstm_competitiveness/20260428_2318_lr_hpo_7pt
+      models:
+      - lstm
+      - gru
+    - experiment: ylstm_architecture/20260727_1846_hlstm_ylstm_ablations_lr_hpo_7pt
+      models:
+      - ylstm
+    - experiment: ylstm_architecture/20260926_1952_bare_cell_lr_hpo_7pt
+      models:
+      - slstm_bare
+      - mlstm_bare
+  E2_block_cross:
+    title: Block structure around the yLSTM cell
+    section: sec:experiments:cross
+    models:
+      ylstm_cell:
+      - ylstm_hb
+      - ylstm_sb
+      - ylstm_mb
+      standard_cell_controls:
+      - slstm_hb
+      - mlstm_hb
+    sources:
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_a
+      models:
+      - ylstm_hb
+      - ylstm_sb
+      - ylstm_mb
+      - slstm_hb
+      - mlstm_hb
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_b
+      models:
+      - ylstm_hb
+      - ylstm_sb
+      - ylstm_mb
+      - slstm_hb
+      - mlstm_hb
+    config_sources:
+    - experiment: ylstm_architecture/20260913_2254_hlstm_ylstm_best_lr_5seed_ep128_matched
+      models:
+      - ylstm_hb
+    - experiment: ylstm_architecture/20260925_0120_cross_best_lr_5seed_ep128_matched
+      models:
+      - ylstm_sb
+      - ylstm_mb
+      - slstm_hb
+      - mlstm_hb
+    lr_sources:
+    - experiment: ylstm_architecture/20260910_0031_ylstm_vb_lr_hpo_7pt
+      models:
+      - ylstm_sb
+      - ylstm_mb
+      note: five regular/DCF tasks searched; the other eleven reuse the ylstm_hb rate
+        of 20260727_1846
+    - experiment: ylstm_architecture/20260921_2348_slstm_mlstm_hb_lr_hpo_7pt
+      models:
+      - slstm_hb
+      - mlstm_hb
+  E3_chunk:
+    title: Chunk-size trade-off of the yLSTM, accuracy and throughput
+    section: sec:experiments:chunk
+    models:
+      arms:
+      - ylstm_hb_c1
+      - ylstm_hb_c2
+      - ylstm_hb_c4
+      - ylstm_hb_c8
+      - ylstm_hb_c0
+    sources:
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_a
+      models:
+      - ylstm_hb_c1
+      - ylstm_hb_c2
+      - ylstm_hb_c4
+      - ylstm_hb_c8
+      - ylstm_hb_c0
+    - experiment: ylstm_architecture/20261005_testeval_disjoint_b
+      models:
+      - ylstm_hb_c1
+      - ylstm_hb_c2
+      - ylstm_hb_c4
+      - ylstm_hb_c8
+      - ylstm_hb_c0
+    lr_sources:
+    - experiment: ylstm_architecture/20260904_1906_ylstm_hb_chunk_lr_grid_3pt
+      models:
+      - ylstm_hb_c0
+      - ylstm_hb_c1
+      - ylstm_hb_c2
+      - ylstm_hb_c4
+    - experiment: ylstm_architecture/20260910_2330_ylstm_hb_c8_lr_grid_3pt
+      models:
+      - ylstm_hb_c8
+    benchmark_csv: ylstm_architecture/benchmarks/20260925_0120/benchmark.csv

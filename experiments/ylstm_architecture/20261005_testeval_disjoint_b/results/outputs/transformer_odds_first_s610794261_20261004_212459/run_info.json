@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_odds_first_s610794261_20261004_212459",
+  "timestamp": "2026-10-04T21:25:08.849978",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52136,
+    "total": 52136
+  },
+  "training_time_seconds": 7.34,
+  "task": "odds_first",
+  "model": "transformer",
+  "seed": 610794261,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 3.6314,
+  "train_seconds_total": 5.31,
+  "eval_seconds_total": 1.95,
+  "extra": {
+    "task": "odds_first",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52136,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

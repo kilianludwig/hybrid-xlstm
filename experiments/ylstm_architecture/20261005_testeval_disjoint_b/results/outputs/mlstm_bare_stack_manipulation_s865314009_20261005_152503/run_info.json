@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_bare_stack_manipulation_s865314009_20261005_152503",
+  "timestamp": "2026-10-05T15:36:40.776203",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52261,
+    "total": 52261
+  },
+  "training_time_seconds": 688.25,
+  "task": "stack_manipulation",
+  "model": "mlstm_bare",
+  "seed": 865314009,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 5.372,
+  "train_seconds_total": 479.35,
+  "eval_seconds_total": 208.27,
+  "extra": {
+    "task": "stack_manipulation",
+    "model": "mlstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52261,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

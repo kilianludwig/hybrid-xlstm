@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_bucket_sort_s865314009_20261004_154032",
+  "timestamp": "2026-10-04T15:40:49.962908",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52507,
+    "total": 52507
+  },
+  "training_time_seconds": 11.37,
+  "task": "bucket_sort",
+  "model": "mamba",
+  "seed": 865314009,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 11.3418,
+  "train_seconds_total": 7.36,
+  "eval_seconds_total": 3.99,
+  "extra": {
+    "task": "bucket_sort",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52507,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

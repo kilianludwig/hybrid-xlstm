@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.30477672793426613,
+      "val_loss": 0.00024644772565807216,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.30477672793426613,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "time/epoch_seconds": 4.026644348166883,
+      "time/train_seconds": 3.9726682021282613,
+      "time/eval_seconds": 0.0539472047239542
+    }
+  ],
+  "epochs": 1,
+  "run_name": "gru_missing_duplicate_string_s610794261_20261004_143935",
+  "timestamp": "2026-10-04T14:39:41.429209",
+  "seed": 610794261,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.0002555603059590794,
+    "test_count": 512,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.30477672793426613,
+    "val_loss": 0.00024644772565807216,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 512,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

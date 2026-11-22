@@ -1,0 +1,47 @@
+training:
+  epochs: 128
+  batch_size: 128
+  dataset_size: 50000
+  val_split: 0.1
+  test_size: 5000
+  test_seed: 43
+  split_mode: disjoint
+  device: auto
+  log_every: 20
+  early_stop_at_accuracy: 0.95
+  seed: 338898589
+  optimizer: adamw
+  learning_rate: 0.001
+  weight_decay: 0.01
+  grad_clip_max_norm: 1.0
+  betas:
+  - 0.9
+  - 0.98
+  scheduler: null
+  warmup_pct: null
+  cosine_eta_min_ratio: null
+output:
+  dir: ./experiments
+  save_checkpoint: true
+  save_metrics: true
+  checkpoint_save_last: false
+  checkpoint_save_best: true
+  checkpoint_interval: null
+  plots:
+    enabled: true
+    format: pdf
+    dpi: 300
+wandb:
+  enabled: false
+  project: hybrid-sequence-models
+task:
+  name: missing_duplicate_string
+  sequence_length: 16
+model:
+  name: transformer
+  hidden_dim: 48
+  d_model: 48
+  num_layers: 2
+  nhead: 4
+  dropout: 0.0
+  dim_feedforward: 168

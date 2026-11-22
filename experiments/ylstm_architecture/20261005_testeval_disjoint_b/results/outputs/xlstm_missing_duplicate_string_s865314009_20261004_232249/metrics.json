@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6745871289903128,
+      "val_loss": 0.6632292419672012,
+      "val/accuracy": 0.595703125,
+      "val/token_accuracy": 0.595703125,
+      "loss": 0.6745871289903128,
+      "accuracy": 0.595703125,
+      "token_accuracy": 0.595703125,
+      "lr": 0.0003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 19.582338626496494,
+      "time/train_seconds": 19.514212926849723,
+      "time/eval_seconds": 0.06810043938457966
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.3866189815609791,
+      "val_loss": 0.11842232942581177,
+      "val/accuracy": 0.95703125,
+      "val/token_accuracy": 0.95703125,
+      "loss": 0.3866189815609791,
+      "accuracy": 0.95703125,
+      "token_accuracy": 0.95703125,
+      "lr": 0.0003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 19.419138125143945,
+      "time/train_seconds": 19.353404925204813,
+      "time/eval_seconds": 0.06570745352655649
+    }
+  ],
+  "epochs": 2,
+  "run_name": "xlstm_missing_duplicate_string_s865314009_20261004_232249",
+  "timestamp": "2026-10-04T23:23:29.893073",
+  "seed": 865314009,
+  "final": {
+    "test_accuracy": 0.9453125,
+    "test_token_accuracy": 0.9453125,
+    "test_loss": 0.12224469892680645,
+    "test_count": 512,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.3866189815609791,
+    "val_loss": 0.11842232942581177,
+    "accuracy": 0.95703125,
+    "val_accuracy": 0.95703125,
+    "token_accuracy": 0.95703125,
+    "val_token_accuracy": 0.95703125,
+    "test_accuracy": 0.9453125,
+    "test_token_accuracy": 0.9453125,
+    "test_count": 512,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

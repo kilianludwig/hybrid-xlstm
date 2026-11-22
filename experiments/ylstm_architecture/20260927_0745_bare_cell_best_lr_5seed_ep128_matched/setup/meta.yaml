@@ -1,0 +1,81 @@
+id: 20260927_0745_bare_cell_best_lr_5seed_ep128_matched
+scale: 1.0
+epochs: 128
+batch_size: 128
+dataset_size: 50000
+val_split: 0.1
+early_stop_at_accuracy: 0.95
+chomsky_seq_len: 16
+mqar_seq_len: 16
+created_at: '2026-09-27T07:46:30.984925'
+task_count: 16
+model_count: 2
+label: bare_cell_best_lr_5seed_ep128_matched
+models:
+- slstm_bare
+- mlstm_bare
+seeds:
+- 42
+- 1818782046
+- 1955990813
+- 1994070645
+- 354258935
+runtime_group: ylstm_architecture
+thesis: true
+lr_sources:
+  primary: 20260926_1952_bare_cell_lr_hpo_7pt
+  fallback_donor: null
+best_lrs:
+  slstm_bare:
+    binary_addition: 0.003
+    binary_multiplication: 0.01
+    bucket_sort: 0.01
+    compute_sqrt: 0.003
+    cycle_navigation: 0.001
+    duplicate_string: 0.01
+    even_pairs: 0.01
+    missing_duplicate_string: 0.003
+    modular_arithmetic: 0.003
+    modular_arithmetic_brackets: 0.003
+    mqar: 0.01
+    odds_first: 0.01
+    parity_check: 0.001
+    reverse_string: 0.003
+    solve_equation: 0.001
+    stack_manipulation: 0.003
+  mlstm_bare:
+    binary_addition: 0.001
+    binary_multiplication: 0.001
+    bucket_sort: 0.01
+    compute_sqrt: 0.001
+    cycle_navigation: 0.003
+    duplicate_string: 0.001
+    even_pairs: 0.0003
+    missing_duplicate_string: 0.003
+    modular_arithmetic: 3.0e-05
+    modular_arithmetic_brackets: 0.0003
+    mqar: 0.003
+    odds_first: 0.001
+    parity_check: 1.0e-05
+    reverse_string: 0.0003
+    solve_equation: 0.001
+    stack_manipulation: 0.01
+param_matching:
+  module: configs/param_matching.py
+  tolerance: 0.05
+  reference_model: lstm
+  reference_input_dim: 8
+  basis:
+    chomsky: bare backbone at reference_input_dim
+    mqar: full wrapped model at MQAR vocab
+  matched_widths:
+    chomsky:
+      slstm_bare:
+        hidden_dim: 64
+      mlstm_bare:
+        hidden_dim: 128
+    mqar:
+      slstm_bare:
+        hidden_dim: 64
+      mlstm_bare:
+        hidden_dim: 100

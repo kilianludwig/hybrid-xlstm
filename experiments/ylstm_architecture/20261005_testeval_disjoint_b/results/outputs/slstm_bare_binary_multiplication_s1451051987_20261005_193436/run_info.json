@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_bare_binary_multiplication_s1451051987_20261005_193436",
+  "timestamp": "2026-10-05T21:00:26.853979",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50895,
+    "total": 50895
+  },
+  "training_time_seconds": 5135.94,
+  "task": "binary_multiplication",
+  "model": "slstm_bare",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 40.1164,
+  "train_seconds_total": 3656.3,
+  "eval_seconds_total": 1478.59,
+  "extra": {
+    "task": "binary_multiplication",
+    "model": "slstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50895,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

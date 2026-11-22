@@ -1,0 +1,53 @@
+training:
+  epochs: 128
+  batch_size: 128
+  dataset_size: 50000
+  val_split: 0.1
+  test_size: 5000
+  test_seed: 43
+  split_mode: disjoint
+  device: auto
+  log_every: 20
+  early_stop_at_accuracy: 0.95
+  seed: 728572034
+  optimizer: adam
+  learning_rate: 0.01
+  weight_decay: 0.0
+  grad_clip_max_norm: 1.0
+  scheduler: null
+  warmup_pct: null
+  cosine_eta_min_ratio: null
+output:
+  dir: experiments/ylstm_architecture/20261005_testeval_disjoint_a/results/outputs
+  save_checkpoint: true
+  save_metrics: true
+  checkpoint_save_last: false
+  checkpoint_save_best: true
+  checkpoint_interval: null
+  plots:
+    enabled: true
+    format: pdf
+    dpi: 300
+  run_name: lstm_mqar_s728572034_20261004_151316
+wandb:
+  enabled: false
+  project: hybrid-sequence-models
+task:
+  name: mqar
+  input_seq_len: 16
+  vocab_size: 256
+  num_kv_pairs: 4
+  power_a: 0.01
+  random_non_queries: true
+model:
+  name: lstm
+  hidden_dim: 64
+  num_layers: 2
+  dropout: 0.0
+  bidirectional: false
+  forget_gate_bias_init: 3.0
+_sweep:
+  current: 80
+  total: 927
+_hpo:
+  variant: s728572034

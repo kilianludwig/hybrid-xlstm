@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_binary_addition_s610794261_20261004_143004",
+  "timestamp": "2026-10-04T14:32:30.600114",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51075,
+    "total": 51075
+  },
+  "training_time_seconds": 140.16,
+  "task": "binary_addition",
+  "model": "gru",
+  "seed": 610794261,
+  "epochs_timed": 17,
+  "mean_epoch_seconds": 8.2222,
+  "train_seconds_total": 107.86,
+  "eval_seconds_total": 31.92,
+  "extra": {
+    "task": "binary_addition",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51075,
+    "optimizer": "adam",
+    "learning_rate": 0.003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c8_bucket_sort_s1451051987_20261009_122700",
+  "timestamp": "2026-10-09T12:27:26.917974",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52681,
+    "total": 52681
+  },
+  "training_time_seconds": 18.67,
+  "task": "bucket_sort",
+  "model": "ylstm_hb_c8",
+  "seed": 1451051987,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 18.635,
+  "train_seconds_total": 12.32,
+  "eval_seconds_total": 6.32,
+  "extra": {
+    "task": "bucket_sort",
+    "model": "ylstm_hb_c8",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52681,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

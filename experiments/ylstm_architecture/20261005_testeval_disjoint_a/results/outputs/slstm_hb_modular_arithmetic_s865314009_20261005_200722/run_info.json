@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_hb_modular_arithmetic_s865314009_20261005_200722",
+  "timestamp": "2026-10-05T20:15:33.230631",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51819,
+    "total": 51819
+  },
+  "training_time_seconds": 488.36,
+  "task": "modular_arithmetic",
+  "model": "slstm_hb",
+  "seed": 865314009,
+  "epochs_timed": 38,
+  "mean_epoch_seconds": 12.8335,
+  "train_seconds_total": 469.88,
+  "eval_seconds_total": 17.79,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "slstm_hb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51819,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

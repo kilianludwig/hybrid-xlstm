@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 2.8861252417008334,
+      "val_loss": 0.4170709952712059,
+      "val/accuracy": 0.6704,
+      "val/token_accuracy": 0.90605,
+      "loss": 2.8861252417008334,
+      "accuracy": 0.6704,
+      "token_accuracy": 0.90605,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 29.458145804237574,
+      "time/train_seconds": 27.36164803802967,
+      "time/eval_seconds": 2.0964771672151983
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.131826748744177,
+      "val_loss": 0.03607220966368914,
+      "val/accuracy": 0.9694,
+      "val/token_accuracy": 0.9923,
+      "loss": 0.131826748744177,
+      "accuracy": 0.9694,
+      "token_accuracy": 0.9923,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 29.27930063009262,
+      "time/train_seconds": 27.195067963097245,
+      "time/eval_seconds": 2.0841966927982867
+    }
+  ],
+  "epochs": 2,
+  "run_name": "xlstm_mqar_s1451051987_20261005_091649",
+  "timestamp": "2026-10-05T09:17:59.843747",
+  "seed": 1451051987,
+  "final": {
+    "test_accuracy": 0.9726,
+    "test_token_accuracy": 0.99305,
+    "test_loss": 0.03337656953372061,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.131826748744177,
+    "val_loss": 0.03607220966368914,
+    "accuracy": 0.9694,
+    "val_accuracy": 0.9694,
+    "token_accuracy": 0.9923,
+    "val_token_accuracy": 0.9923,
+    "test_accuracy": 0.9726,
+    "test_token_accuracy": 0.99305,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

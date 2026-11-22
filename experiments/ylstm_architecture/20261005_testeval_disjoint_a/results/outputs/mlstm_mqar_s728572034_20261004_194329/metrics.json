@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 1.1886002976021852,
+      "val_loss": 0.011225868621841073,
+      "val/accuracy": 0.993,
+      "val/token_accuracy": 0.99825,
+      "loss": 1.1886002976021852,
+      "accuracy": 0.993,
+      "token_accuracy": 0.99825,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 11.167425056919456,
+      "time/train_seconds": 10.571376264095306,
+      "time/eval_seconds": 0.5960214170627296
+    }
+  ],
+  "epochs": 1,
+  "run_name": "mlstm_mqar_s728572034_20261004_194329",
+  "timestamp": "2026-10-04T19:43:50.611753",
+  "seed": 728572034,
+  "final": {
+    "test_accuracy": 0.9934,
+    "test_token_accuracy": 0.99835,
+    "test_loss": 0.012724637158680708,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 1.1886002976021852,
+    "val_loss": 0.011225868621841073,
+    "accuracy": 0.993,
+    "val_accuracy": 0.993,
+    "token_accuracy": 0.99825,
+    "val_token_accuracy": 0.99825,
+    "test_accuracy": 0.9934,
+    "test_token_accuracy": 0.99835,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

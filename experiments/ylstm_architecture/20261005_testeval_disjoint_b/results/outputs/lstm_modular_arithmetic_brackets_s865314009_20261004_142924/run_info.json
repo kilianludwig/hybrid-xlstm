@@ -1,0 +1,32 @@
+{
+  "run_name": "lstm_modular_arithmetic_brackets_s865314009_20261004_142924",
+  "timestamp": "2026-10-04T14:32:40.146351",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 53383,
+    "total": 53383
+  },
+  "training_time_seconds": 191.71,
+  "task": "modular_arithmetic_brackets",
+  "model": "lstm",
+  "seed": 865314009,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 1.489,
+  "train_seconds_total": 179.78,
+  "eval_seconds_total": 10.81,
+  "extra": {
+    "task": "modular_arithmetic_brackets",
+    "model": "lstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 53383,
+    "optimizer": "adam",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_reverse_string_s610794261_20261004_205030",
+  "timestamp": "2026-10-04T21:01:47.435489",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52320,
+    "total": 52320
+  },
+  "training_time_seconds": 582.98,
+  "task": "reverse_string",
+  "model": "slstm",
+  "seed": 610794261,
+  "epochs_timed": 3,
+  "mean_epoch_seconds": 194.2675,
+  "train_seconds_total": 306.35,
+  "eval_seconds_total": 276.45,
+  "extra": {
+    "task": "reverse_string",
+    "model": "slstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52320,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

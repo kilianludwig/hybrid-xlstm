@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_modular_arithmetic_s338898589_20261004_154747",
+  "timestamp": "2026-10-04T16:13:49.797156",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52755,
+    "total": 52755
+  },
+  "training_time_seconds": 1558.09,
+  "task": "modular_arithmetic",
+  "model": "mamba",
+  "seed": 338898589,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 12.1678,
+  "train_seconds_total": 1471.65,
+  "eval_seconds_total": 85.83,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52755,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

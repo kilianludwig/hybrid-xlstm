@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_odds_first_s338898589_20261004_193553",
+  "timestamp": "2026-10-04T19:38:40.887191",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51384,
+    "total": 51384
+  },
+  "training_time_seconds": 162.22,
+  "task": "odds_first",
+  "model": "mlstm",
+  "seed": 338898589,
+  "epochs_timed": 10,
+  "mean_epoch_seconds": 16.1907,
+  "train_seconds_total": 127.17,
+  "eval_seconds_total": 34.74,
+  "extra": {
+    "task": "odds_first",
+    "model": "mlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51384,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

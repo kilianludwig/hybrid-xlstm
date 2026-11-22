@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_missing_duplicate_string_s865314009_20261004_143941",
+  "timestamp": "2026-10-04T14:39:47.618086",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51222,
+    "total": 51222
+  },
+  "training_time_seconds": 4.08,
+  "task": "missing_duplicate_string",
+  "model": "gru",
+  "seed": 865314009,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 4.0339,
+  "train_seconds_total": 3.98,
+  "eval_seconds_total": 0.05,
+  "extra": {
+    "task": "missing_duplicate_string",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51222,
+    "optimizer": "adam",
+    "learning_rate": 0.003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

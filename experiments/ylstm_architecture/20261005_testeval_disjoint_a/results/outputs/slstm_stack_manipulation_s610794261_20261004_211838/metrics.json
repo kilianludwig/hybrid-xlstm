@@ -1,0 +1,75 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.4868046043161005,
+      "val_loss": 0.27936350665986537,
+      "val/accuracy": 0.5518,
+      "val/token_accuracy": 0.9079319870288077,
+      "loss": 0.4868046043161005,
+      "accuracy": 0.5518,
+      "token_accuracy": 0.9079319870288077,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 167.968533155974,
+      "time/train_seconds": 85.42808417929336,
+      "time/eval_seconds": 82.54042770387605
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.05581138096452235,
+      "val_loss": 0.050280433089938015,
+      "val/accuracy": 0.9442,
+      "val/token_accuracy": 0.9894137226978708,
+      "loss": 0.05581138096452235,
+      "accuracy": 0.9442,
+      "token_accuracy": 0.9894137226978708,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 168.22876191837713,
+      "time/train_seconds": 85.65975541900843,
+      "time/eval_seconds": 82.56897750729695
+    },
+    {
+      "epoch": 3,
+      "train/loss": 0.016035935788686142,
+      "val_loss": 0.03333024129969999,
+      "val/accuracy": 0.9668,
+      "val/token_accuracy": 0.9939090300773811,
+      "loss": 0.016035935788686142,
+      "accuracy": 0.9668,
+      "token_accuracy": 0.9939090300773811,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 167.87818235205486,
+      "time/train_seconds": 85.43130727764219,
+      "time/eval_seconds": 82.44684682507068
+    }
+  ],
+  "epochs": 3,
+  "run_name": "slstm_stack_manipulation_s610794261_20261004_211838",
+  "timestamp": "2026-10-04T21:28:32.119552",
+  "seed": 610794261,
+  "final": {
+    "test_accuracy": 0.9728,
+    "test_token_accuracy": 0.9952633671581932,
+    "test_loss": 0.025325331097701565,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 3
+  },
+  "best": {
+    "loss": 0.016035935788686142,
+    "val_loss": 0.03333024129969999,
+    "accuracy": 0.9668,
+    "val_accuracy": 0.9668,
+    "token_accuracy": 0.9939090300773811,
+    "val_token_accuracy": 0.9939090300773811,
+    "test_accuracy": 0.9728,
+    "test_token_accuracy": 0.9952633671581932,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 3
+  }
+}

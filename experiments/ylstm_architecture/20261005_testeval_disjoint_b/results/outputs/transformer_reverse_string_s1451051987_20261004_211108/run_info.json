@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_reverse_string_s1451051987_20261004_211108",
+  "timestamp": "2026-10-04T21:11:14.343917",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52136,
+    "total": 52136
+  },
+  "training_time_seconds": 3.48,
+  "task": "reverse_string",
+  "model": "transformer",
+  "seed": 1451051987,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 3.4434,
+  "train_seconds_total": 2.5,
+  "eval_seconds_total": 0.94,
+  "extra": {
+    "task": "reverse_string",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52136,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_compute_sqrt_s728572034_20261004_230456",
+  "timestamp": "2026-10-04T23:13:24.688957",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51852,
+    "total": 51852
+  },
+  "training_time_seconds": 500.29,
+  "task": "compute_sqrt",
+  "model": "xlstm",
+  "seed": 728572034,
+  "epochs_timed": 19,
+  "mean_epoch_seconds": 26.311,
+  "train_seconds_total": 392.66,
+  "eval_seconds_total": 107.25,
+  "extra": {
+    "task": "compute_sqrt",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51852,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

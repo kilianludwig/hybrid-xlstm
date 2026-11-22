@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_hb_even_pairs_s610794261_20261005_224839",
+  "timestamp": "2026-10-05T22:48:49.460769",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52558,
+    "total": 52558
+  },
+  "training_time_seconds": 8.44,
+  "task": "even_pairs",
+  "model": "xlstm_hb",
+  "seed": 610794261,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 8.4051,
+  "train_seconds_total": 8.08,
+  "eval_seconds_total": 0.33,
+  "extra": {
+    "task": "even_pairs",
+    "model": "xlstm_hb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52558,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

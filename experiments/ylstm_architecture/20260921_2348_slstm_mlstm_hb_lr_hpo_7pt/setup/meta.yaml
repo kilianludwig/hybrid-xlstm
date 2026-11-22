@@ -1,0 +1,46 @@
+id: 20260921_2348_slstm_mlstm_hb_lr_hpo_7pt
+scale: 1.0
+epochs: 64
+batch_size: 128
+dataset_size: 50000
+val_split: 0.1
+early_stop_at_accuracy: 0.95
+chomsky_seq_len: 16
+mqar_seq_len: 16
+created_at: '2026-09-21T23:51:03.384915'
+task_count: 16
+model_count: 2
+label: slstm_mlstm_hb_lr_hpo_7pt
+models:
+- slstm_hb
+- mlstm_hb
+seeds:
+- 42
+learning_rate_grid:
+- 1.0e-05
+- 3.0e-05
+- 0.0001
+- 0.0003
+- 0.001
+- 0.003
+- 0.01
+runtime_group: ylstm_architecture
+param_matching:
+  module: configs/param_matching.py
+  tolerance: 0.05
+  reference_model: lstm
+  reference_input_dim: 8
+  basis:
+    chomsky: bare backbone at reference_input_dim
+    mqar: full wrapped model at MQAR vocab
+  matched_widths:
+    chomsky:
+      slstm_hb:
+        hidden_dim: 42
+      mlstm_hb:
+        hidden_dim: 50
+    mqar:
+      slstm_hb:
+        hidden_dim: 59
+      mlstm_hb:
+        hidden_dim: 69

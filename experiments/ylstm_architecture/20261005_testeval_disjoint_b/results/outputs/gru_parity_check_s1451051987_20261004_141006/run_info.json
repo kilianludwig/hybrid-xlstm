@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_parity_check_s1451051987_20261004_141006",
+  "timestamp": "2026-10-04T14:13:15.781458",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50772,
+    "total": 50772
+  },
+  "training_time_seconds": 184.8,
+  "task": "parity_check",
+  "model": "gru",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 1.4404,
+  "train_seconds_total": 173.66,
+  "eval_seconds_total": 10.71,
+  "extra": {
+    "task": "parity_check",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50772,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

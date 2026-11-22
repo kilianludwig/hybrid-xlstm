@@ -1,0 +1,8 @@
+name: ylstm_architecture
+title: Hybrid xLSTM architectures
+description: >-
+  The hLSTM, yLSTM, and yhLSTM architectures, their controls, and the
+  published baselines trained from the root model registry.
+  Model code is under experiments/ylstm_architecture/ml/models/.
+  Reported runs live in the experiment directories next to this file.
+default_group: true

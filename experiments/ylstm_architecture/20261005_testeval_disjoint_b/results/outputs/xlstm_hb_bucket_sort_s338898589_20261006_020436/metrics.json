@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.17654000533768496,
+      "val_loss": 0.0011727003653504652,
+      "val/accuracy": 0.999,
+      "val/token_accuracy": 0.99985,
+      "loss": 0.17654000533768496,
+      "accuracy": 0.999,
+      "token_accuracy": 0.99985,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 21.826683450490236,
+      "time/train_seconds": 15.210285215638578,
+      "time/eval_seconds": 6.616374963894486
+    }
+  ],
+  "epochs": 1,
+  "run_name": "xlstm_hb_bucket_sort_s338898589_20261006_020436",
+  "timestamp": "2026-10-06T02:05:06.845154",
+  "seed": 338898589,
+  "final": {
+    "test_accuracy": 0.9996,
+    "test_token_accuracy": 0.9999375,
+    "test_loss": 0.0008162997604813427,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.17654000533768496,
+    "val_loss": 0.0011727003653504652,
+    "accuracy": 0.999,
+    "val_accuracy": 0.999,
+    "token_accuracy": 0.99985,
+    "val_token_accuracy": 0.99985,
+    "test_accuracy": 0.9996,
+    "test_token_accuracy": 0.9999375,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

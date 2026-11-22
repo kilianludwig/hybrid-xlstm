@@ -1,0 +1,11 @@
+model,task,best_lr
+ylstm_mb,cycle_navigation,0.0001
+ylstm_mb,modular_arithmetic,0.0003
+ylstm_mb,modular_arithmetic_brackets,0.001
+ylstm_mb,parity_check,3e-05
+ylstm_mb,solve_equation,0.0001
+ylstm_sb,cycle_navigation,0.001
+ylstm_sb,modular_arithmetic,0.0003
+ylstm_sb,modular_arithmetic_brackets,0.0003
+ylstm_sb,parity_check,3e-05
+ylstm_sb,solve_equation,0.0003

@@ -1,0 +1,54 @@
+id: 20261005_testeval_disjoint_a
+scale: 1.0
+epochs: 128
+batch_size: 128
+dataset_size: 50000
+val_split: 0.1
+test_size: 5000
+test_seed: 43
+split_mode: disjoint
+confirmation_seeds:
+- 610794261
+- 728572034
+- 338898589
+- 865314009
+- 1451051987
+replaced_seeds:
+- 42
+- 1818782046
+- 1955990813
+- 1994070645
+- 354258935
+early_stop_at_accuracy: 0.95
+chomsky_seq_len: 16
+mqar_seq_len: 16
+label: testeval confirmation rerun
+runtime_group: ylstm_architecture
+models:
+- gru
+- hlstm
+- lstm
+- mamba
+- mlstm
+- mlstm_bare
+- mlstm_hb
+- slstm
+- slstm_bare
+- slstm_hb
+- transformer
+- xlstm
+- xlstm_hb
+- yhlstm
+- ylstm
+- ylstm_hb
+- ylstm_hb_c0
+- ylstm_hb_c1
+- ylstm_hb_c2
+- ylstm_hb_c4
+- ylstm_hb_c8
+- ylstm_mb
+- ylstm_sb
+notes:
+  purpose: Retrain the confirmation roster at the saved learning rates on five seeds
+    that were not used to select those rates, with input-disjoint train/val/test splits,
+    and score the best validation checkpoint once on the test set.

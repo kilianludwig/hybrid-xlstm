@@ -1,0 +1,32 @@
+{
+  "run_name": "hlstm_solve_equation_s865314009_20261005_125449",
+  "timestamp": "2026-10-05T13:31:19.189329",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50531,
+    "total": 50531
+  },
+  "training_time_seconds": 2184.67,
+  "task": "solve_equation",
+  "model": "hlstm",
+  "seed": 865314009,
+  "epochs_timed": 107,
+  "mean_epoch_seconds": 20.3837,
+  "train_seconds_total": 2100.53,
+  "eval_seconds_total": 80.52,
+  "extra": {
+    "task": "solve_equation",
+    "model": "hlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50531,
+    "optimizer": "adamw",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

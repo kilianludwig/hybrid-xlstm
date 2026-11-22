@@ -1,0 +1,53 @@
+training:
+  epochs: 128
+  batch_size: 128
+  dataset_size: 50000
+  val_split: 0.1
+  test_size: 5000
+  test_seed: 43
+  split_mode: disjoint
+  device: auto
+  log_every: 20
+  early_stop_at_accuracy: 0.95
+  seed: 728572034
+  optimizer: adamw
+  learning_rate: 0.001
+  weight_decay: 0.01
+  grad_clip_max_norm: 1.0
+  scheduler: null
+  warmup_pct: null
+  cosine_eta_min_ratio: null
+output:
+  dir: experiments/ylstm_architecture/20261005_testeval_disjoint_a/results/outputs
+  save_checkpoint: true
+  save_metrics: true
+  checkpoint_save_last: false
+  checkpoint_save_best: true
+  checkpoint_interval: null
+  plots:
+    enabled: true
+    format: pdf
+    dpi: 300
+  run_name: ylstm_hb_bucket_sort_s728572034_20261007_073142
+wandb:
+  enabled: false
+  project: hybrid-sequence-models
+task:
+  name: bucket_sort
+  sequence_length: 16
+model:
+  name: ylstm_hb
+  hidden_dim: 44
+  num_layers: 2
+  num_heads: 1
+  chunk_size: 1
+  ffn: swiglu
+  hid_features: null
+  fgate_bias_init: 3.0
+  norm: feedback
+  feedback_init_std: 0.0
+_sweep:
+  current: 626
+  total: 927
+_hpo:
+  variant: s728572034

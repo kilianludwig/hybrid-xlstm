@@ -1,0 +1,53 @@
+training:
+  epochs: 128
+  batch_size: 128
+  dataset_size: 50000
+  val_split: 0.1
+  test_size: 5000
+  test_seed: 43
+  split_mode: disjoint
+  device: auto
+  log_every: 20
+  early_stop_at_accuracy: 0.95
+  seed: 1451051987
+  optimizer: adamw
+  learning_rate: 0.003
+  weight_decay: 0.01
+  grad_clip_max_norm: 1.0
+  scheduler: null
+  warmup_pct: null
+  cosine_eta_min_ratio: null
+output:
+  dir: experiments/ylstm_architecture/20261005_testeval_disjoint_b/results/outputs
+  save_checkpoint: true
+  save_metrics: true
+  checkpoint_save_last: false
+  checkpoint_save_best: true
+  checkpoint_interval: null
+  plots:
+    enabled: true
+    format: pdf
+    dpi: 300
+  run_name: xlstm_reverse_string_s1451051987_20261004_215344
+wandb:
+  enabled: false
+  project: hybrid-sequence-models
+task:
+  name: reverse_string
+  sequence_length: 16
+model:
+  name: xlstm
+  hidden_dim: 52
+  embedding_dim: 52
+  num_blocks: 2
+  dropout: 0.0
+  context_length: 512
+  num_heads: 4
+  add_post_blocks_norm: true
+  bias_init: powerlaw_blockdependent
+  fgate_bias_range: null
+_sweep:
+  current: 265
+  total: 925
+_hpo:
+  variant: s1451051987

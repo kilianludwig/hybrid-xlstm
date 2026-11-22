@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_mqar_s865314009_20261004_160355",
+  "timestamp": "2026-10-04T16:05:12.282506",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 133714,
+    "total": 133714
+  },
+  "training_time_seconds": 68.84,
+  "task": "mqar",
+  "model": "mamba",
+  "seed": 865314009,
+  "epochs_timed": 12,
+  "mean_epoch_seconds": 5.6995,
+  "train_seconds_total": 65.04,
+  "eval_seconds_total": 3.35,
+  "extra": {
+    "task": "mqar",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 133714,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

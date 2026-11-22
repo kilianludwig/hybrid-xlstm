@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_binary_addition_s1451051987_20261007_023335",
+  "timestamp": "2026-10-07T06:39:01.821523",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51381,
+    "total": 51381
+  },
+  "training_time_seconds": 14686.73,
+  "task": "binary_addition",
+  "model": "ylstm",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 114.7326,
+  "train_seconds_total": 9975.26,
+  "eval_seconds_total": 4710.5,
+  "extra": {
+    "task": "binary_addition",
+    "model": "ylstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51381,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

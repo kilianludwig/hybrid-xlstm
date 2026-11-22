@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_bare_even_pairs_s610794261_20261005_153931",
+  "timestamp": "2026-10-05T15:52:34.613889",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50960,
+    "total": 50960
+  },
+  "training_time_seconds": 780.34,
+  "task": "even_pairs",
+  "model": "mlstm_bare",
+  "seed": 610794261,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 6.0911,
+  "train_seconds_total": 704.74,
+  "eval_seconds_total": 74.91,
+  "extra": {
+    "task": "even_pairs",
+    "model": "mlstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50960,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

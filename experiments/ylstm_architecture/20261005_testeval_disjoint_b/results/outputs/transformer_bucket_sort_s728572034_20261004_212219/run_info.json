@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_bucket_sort_s728572034_20261004_212219",
+  "timestamp": "2026-10-04T21:22:29.461109",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52451,
+    "total": 52451
+  },
+  "training_time_seconds": 7.37,
+  "task": "bucket_sort",
+  "model": "transformer",
+  "seed": 728572034,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 3.6462,
+  "train_seconds_total": 5.26,
+  "eval_seconds_total": 2.03,
+  "extra": {
+    "task": "bucket_sort",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52451,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

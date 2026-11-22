@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c4_mqar_s728572034_20261009_103733",
+  "timestamp": "2026-10-09T10:43:10.800852",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 130577,
+    "total": 130577
+  },
+  "training_time_seconds": 328.9,
+  "task": "mqar",
+  "model": "ylstm_hb_c4",
+  "seed": 728572034,
+  "epochs_timed": 26,
+  "mean_epoch_seconds": 12.6185,
+  "train_seconds_total": 315.19,
+  "eval_seconds_total": 12.89,
+  "extra": {
+    "task": "mqar",
+    "model": "ylstm_hb_c4",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 130577,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

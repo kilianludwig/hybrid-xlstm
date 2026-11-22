@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_missing_duplicate_string_s1451051987_20261004_165524",
+  "timestamp": "2026-10-04T16:55:38.604469",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51494,
+    "total": 51494
+  },
+  "training_time_seconds": 12.2,
+  "task": "missing_duplicate_string",
+  "model": "mlstm",
+  "seed": 1451051987,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 6.0706,
+  "train_seconds_total": 12.09,
+  "eval_seconds_total": 0.05,
+  "extra": {
+    "task": "missing_duplicate_string",
+    "model": "mlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51494,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

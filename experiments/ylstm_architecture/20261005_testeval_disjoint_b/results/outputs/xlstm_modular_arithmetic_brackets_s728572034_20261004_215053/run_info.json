@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_modular_arithmetic_brackets_s728572034_20261004_215053",
+  "timestamp": "2026-10-04T22:26:09.948064",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52539,
+    "total": 52539
+  },
+  "training_time_seconds": 2111.89,
+  "task": "modular_arithmetic_brackets",
+  "model": "xlstm",
+  "seed": 728572034,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 16.4961,
+  "train_seconds_total": 2025.46,
+  "eval_seconds_total": 86.04,
+  "extra": {
+    "task": "modular_arithmetic_brackets",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52539,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

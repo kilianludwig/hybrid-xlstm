@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_odds_first_s865314009_20261004_144039",
+  "timestamp": "2026-10-04T14:41:05.497372",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50772,
+    "total": 50772
+  },
+  "training_time_seconds": 23.02,
+  "task": "odds_first",
+  "model": "gru",
+  "seed": 865314009,
+  "epochs_timed": 5,
+  "mean_epoch_seconds": 4.5849,
+  "train_seconds_total": 17.5,
+  "eval_seconds_total": 5.43,
+  "extra": {
+    "task": "odds_first",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50772,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

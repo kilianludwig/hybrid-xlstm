@@ -1,0 +1,2 @@
+# Optional. Install only when using --wandb. Training defaults leave W&B off.
+wandb>=0.18

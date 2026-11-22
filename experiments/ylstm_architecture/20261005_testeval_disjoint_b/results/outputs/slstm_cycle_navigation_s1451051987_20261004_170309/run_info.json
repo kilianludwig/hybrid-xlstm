@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_cycle_navigation_s1451051987_20261004_170309",
+  "timestamp": "2026-10-04T17:16:19.443992",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52543,
+    "total": 52543
+  },
+  "training_time_seconds": 787.39,
+  "task": "cycle_navigation",
+  "model": "slstm",
+  "seed": 1451051987,
+  "epochs_timed": 28,
+  "mean_epoch_seconds": 28.112,
+  "train_seconds_total": 756.21,
+  "eval_seconds_total": 30.93,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "slstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52543,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

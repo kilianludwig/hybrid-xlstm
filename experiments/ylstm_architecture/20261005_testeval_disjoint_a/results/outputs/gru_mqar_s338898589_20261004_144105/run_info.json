@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_mqar_s338898589_20261004_144105",
+  "timestamp": "2026-10-04T14:47:52.747387",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 126204,
+    "total": 126204
+  },
+  "training_time_seconds": 398.03,
+  "task": "mqar",
+  "model": "gru",
+  "seed": 338898589,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 3.1046,
+  "train_seconds_total": 337.54,
+  "eval_seconds_total": 59.85,
+  "extra": {
+    "task": "mqar",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 126204,
+    "optimizer": "adam",
+    "learning_rate": 0.003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

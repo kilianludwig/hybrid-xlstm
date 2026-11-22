@@ -1,0 +1,35 @@
+id: 20261117_1606_transformer_mqar_causal_5seed
+label: transformer_mqar_causal_5seed
+created_at: '2026-11-17T16:06:00'
+epochs: 128
+batch_size: 128
+dataset_size: 50000
+val_split: 0.1
+test_size: 5000
+test_seed: 43
+split_mode: disjoint
+early_stop_at_accuracy: 0.95
+seeds:
+- 610794261
+- 728572034
+- 338898589
+- 865314009
+- 1451051987
+learning_rate: 0.003
+models:
+- transformer
+tasks:
+- mqar
+notes:
+  purpose: >
+    Five confirmation seeds for the causal Transformer on MQAR at the learning
+    rate 0.003. Replaces the
+    five non-causal Transformer MQAR runs of 20261005_testeval_disjoint in
+    E1_headline.
+  protocol: >
+    Same seeds, disjoint split, 128-epoch budget, and matched width
+    (dim_feedforward 253) as the Transformer MQAR rows of
+    20261005_testeval_disjoint. The learning rate is 0.003, the winner of
+    the causal seven-point search (best validation accuracy 0.9818).
+    TokenClassifier passes causal=True.
+  thesis: thesis source of E1_headline (transformer, mqar) in experiments/thesis_manifest.yaml

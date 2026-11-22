@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_mqar_s338898589_20261007_010509",
+  "timestamp": "2026-10-07T01:08:32.630142",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 131796,
+    "total": 131796
+  },
+  "training_time_seconds": 195.21,
+  "task": "mqar",
+  "model": "ylstm",
+  "seed": 338898589,
+  "epochs_timed": 6,
+  "mean_epoch_seconds": 32.5033,
+  "train_seconds_total": 187.88,
+  "eval_seconds_total": 7.14,
+  "extra": {
+    "task": "mqar",
+    "model": "ylstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 131796,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

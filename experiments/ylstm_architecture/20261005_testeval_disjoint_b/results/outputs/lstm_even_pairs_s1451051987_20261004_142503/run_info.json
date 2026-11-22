@@ -1,0 +1,32 @@
+{
+  "run_name": "lstm_even_pairs_s1451051987_20261004_142503",
+  "timestamp": "2026-10-04T14:25:08.377375",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50824,
+    "total": 50824
+  },
+  "training_time_seconds": 3.07,
+  "task": "even_pairs",
+  "model": "lstm",
+  "seed": 1451051987,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 1.5168,
+  "train_seconds_total": 2.84,
+  "eval_seconds_total": 0.19,
+  "extra": {
+    "task": "even_pairs",
+    "model": "lstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50824,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

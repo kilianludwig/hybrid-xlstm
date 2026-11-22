@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_solve_equation_s610794261_20261004_222028",
+  "timestamp": "2026-10-04T22:28:20.529971",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52539,
+    "total": 52539
+  },
+  "training_time_seconds": 467.71,
+  "task": "solve_equation",
+  "model": "xlstm",
+  "seed": 610794261,
+  "epochs_timed": 28,
+  "mean_epoch_seconds": 16.6898,
+  "train_seconds_total": 447.79,
+  "eval_seconds_total": 19.53,
+  "extra": {
+    "task": "solve_equation",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52539,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

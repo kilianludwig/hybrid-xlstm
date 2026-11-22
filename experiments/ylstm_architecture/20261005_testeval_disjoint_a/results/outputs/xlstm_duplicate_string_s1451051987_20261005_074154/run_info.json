@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_duplicate_string_s1451051987_20261005_074154",
+  "timestamp": "2026-10-05T07:58:41.984008",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51852,
+    "total": 51852
+  },
+  "training_time_seconds": 902.11,
+  "task": "duplicate_string",
+  "model": "xlstm",
+  "seed": 1451051987,
+  "epochs_timed": 5,
+  "mean_epoch_seconds": 180.382,
+  "train_seconds_total": 379.69,
+  "eval_seconds_total": 522.22,
+  "extra": {
+    "task": "duplicate_string",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51852,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_even_pairs_s1451051987_20261004_141250",
+  "timestamp": "2026-10-04T14:13:34.949458",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50772,
+    "total": 50772
+  },
+  "training_time_seconds": 41.73,
+  "task": "even_pairs",
+  "model": "gru",
+  "seed": 1451051987,
+  "epochs_timed": 8,
+  "mean_epoch_seconds": 5.204,
+  "train_seconds_total": 36.56,
+  "eval_seconds_total": 5.07,
+  "extra": {
+    "task": "even_pairs",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50772,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

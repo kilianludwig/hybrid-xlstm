@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_reverse_string_s1451051987_20261004_182017",
+  "timestamp": "2026-10-04T18:21:34.234729",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51384,
+    "total": 51384
+  },
+  "training_time_seconds": 70.81,
+  "task": "reverse_string",
+  "model": "mlstm",
+  "seed": 1451051987,
+  "epochs_timed": 4,
+  "mean_epoch_seconds": 17.656,
+  "train_seconds_total": 55.63,
+  "eval_seconds_total": 14.99,
+  "extra": {
+    "task": "reverse_string",
+    "model": "mlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51384,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

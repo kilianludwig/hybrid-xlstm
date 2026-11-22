@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6887161286630457,
+      "val_loss": 0.6791042238473892,
+      "val/accuracy": 0.63671875,
+      "val/token_accuracy": 0.63671875,
+      "loss": 0.6887161286630457,
+      "accuracy": 0.63671875,
+      "token_accuracy": 0.63671875,
+      "lr": 0.01,
+      "weight_decay": 0.0,
+      "time/epoch_seconds": 1.3981335260905325,
+      "time/train_seconds": 1.391346241813153,
+      "time/eval_seconds": 0.00676615908741951
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.21338273530844817,
+      "val_loss": 0.0004129348453716375,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.21338273530844817,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.01,
+      "weight_decay": 0.0,
+      "time/epoch_seconds": 1.3953197579830885,
+      "time/train_seconds": 1.388521566055715,
+      "time/eval_seconds": 0.006776399910449982
+    }
+  ],
+  "epochs": 2,
+  "run_name": "lstm_missing_duplicate_string_s865314009_20261004_151100",
+  "timestamp": "2026-10-04T15:11:04.800911",
+  "seed": 865314009,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.00040674714546184987,
+    "test_count": 512,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.21338273530844817,
+    "val_loss": 0.0004129348453716375,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 512,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

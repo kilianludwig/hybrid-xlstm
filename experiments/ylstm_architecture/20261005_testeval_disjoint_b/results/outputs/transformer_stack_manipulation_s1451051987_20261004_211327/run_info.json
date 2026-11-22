@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_stack_manipulation_s1451051987_20261004_211327",
+  "timestamp": "2026-10-04T21:14:03.051195",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52343,
+    "total": 52343
+  },
+  "training_time_seconds": 27.32,
+  "task": "stack_manipulation",
+  "model": "transformer",
+  "seed": 1451051987,
+  "epochs_timed": 7,
+  "mean_epoch_seconds": 3.8657,
+  "train_seconds_total": 19.11,
+  "eval_seconds_total": 7.95,
+  "extra": {
+    "task": "stack_manipulation",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52343,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

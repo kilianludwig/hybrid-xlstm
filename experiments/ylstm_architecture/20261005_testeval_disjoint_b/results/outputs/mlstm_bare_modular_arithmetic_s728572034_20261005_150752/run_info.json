@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_bare_modular_arithmetic_s728572034_20261005_150752",
+  "timestamp": "2026-10-05T15:13:42.223471",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 54097,
+    "total": 54097
+  },
+  "training_time_seconds": 346.61,
+  "task": "modular_arithmetic",
+  "model": "mlstm_bare",
+  "seed": 728572034,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 2.7047,
+  "train_seconds_total": 329.5,
+  "eval_seconds_total": 16.7,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "mlstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 54097,
+    "optimizer": "adamw",
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

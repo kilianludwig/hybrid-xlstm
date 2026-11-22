@@ -1,0 +1,70 @@
+id: 20260913_2254_best_lr_5seed_ep128_matched
+scale: 1.0
+epochs: 128
+batch_size: 128
+dataset_size: 50000
+val_split: 0.1
+early_stop_at_accuracy: 0.95
+chomsky_seq_len: 16
+mqar_seq_len: 16
+created_at: '2026-09-13T22:56:27.817982'
+task_count: 112
+model_count: 7
+label: best_lr_5seed_ep128_matched
+models:
+- gru
+- lstm
+- mamba
+- slstm
+- mlstm
+- xlstm
+- transformer
+seeds:
+- 42
+- 1818782046
+- 1955990813
+- 1994070645
+- 354258935
+param_matching:
+  module: configs/param_matching.py
+  tolerance: 0.05
+  reference_model: lstm
+  reference_input_dim: 8
+  basis:
+    chomsky: bare backbone at reference_input_dim
+    mqar: full wrapped model at MQAR vocab
+  matched_widths:
+    chomsky:
+      transformer:
+        d_model: 48
+        hidden_dim: 48
+        dim_feedforward: 168
+      mamba:
+        d_model: 56
+        hidden_dim: 56
+      slstm:
+        embedding_dim: 52
+        hidden_dim: 52
+      mlstm:
+        embedding_dim: 52
+        hidden_dim: 52
+      xlstm:
+        embedding_dim: 52
+        hidden_dim: 52
+    mqar:
+      transformer:
+        d_model: 64
+        hidden_dim: 64
+        dim_feedforward: 253
+      mamba:
+        d_model: 78
+        hidden_dim: 78
+      slstm:
+        embedding_dim: 80
+        hidden_dim: 80
+      mlstm:
+        embedding_dim: 68
+        hidden_dim: 68
+      xlstm:
+        embedding_dim: 76
+        hidden_dim: 76

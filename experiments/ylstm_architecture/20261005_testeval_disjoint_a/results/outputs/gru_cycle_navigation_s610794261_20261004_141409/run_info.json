@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_cycle_navigation_s610794261_20261004_141409",
+  "timestamp": "2026-10-04T14:19:22.589886",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51231,
+    "total": 51231
+  },
+  "training_time_seconds": 310.74,
+  "task": "cycle_navigation",
+  "model": "gru",
+  "seed": 610794261,
+  "epochs_timed": 59,
+  "mean_epoch_seconds": 5.2616,
+  "train_seconds_total": 272.86,
+  "eval_seconds_total": 37.57,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51231,
+    "optimizer": "adam",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_bare_odds_first_s728572034_20261005_205824",
+  "timestamp": "2026-10-05T21:00:28.085908",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50568,
+    "total": 50568
+  },
+  "training_time_seconds": 111.14,
+  "task": "odds_first",
+  "model": "slstm_bare",
+  "seed": 728572034,
+  "epochs_timed": 3,
+  "mean_epoch_seconds": 37.0258,
+  "train_seconds_total": 77.59,
+  "eval_seconds_total": 33.49,
+  "extra": {
+    "task": "odds_first",
+    "model": "slstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50568,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

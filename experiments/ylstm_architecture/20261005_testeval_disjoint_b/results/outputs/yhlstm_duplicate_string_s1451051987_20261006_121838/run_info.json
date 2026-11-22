@@ -1,0 +1,32 @@
+{
+  "run_name": "yhlstm_duplicate_string_s1451051987_20261006_121838",
+  "timestamp": "2026-10-06T12:42:29.141571",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 54408,
+    "total": 54408
+  },
+  "training_time_seconds": 1296.31,
+  "task": "duplicate_string",
+  "model": "yhlstm",
+  "seed": 1451051987,
+  "epochs_timed": 4,
+  "mean_epoch_seconds": 323.9971,
+  "train_seconds_total": 745.78,
+  "eval_seconds_total": 550.2,
+  "extra": {
+    "task": "duplicate_string",
+    "model": "yhlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 54408,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

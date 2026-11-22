@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_stack_manipulation_s865314009_20261005_060922",
+  "timestamp": "2026-10-05T06:19:22.178064",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52075,
+    "total": 52075
+  },
+  "training_time_seconds": 549.98,
+  "task": "stack_manipulation",
+  "model": "xlstm",
+  "seed": 865314009,
+  "epochs_timed": 6,
+  "mean_epoch_seconds": 91.6242,
+  "train_seconds_total": 290.07,
+  "eval_seconds_total": 259.68,
+  "extra": {
+    "task": "stack_manipulation",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52075,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

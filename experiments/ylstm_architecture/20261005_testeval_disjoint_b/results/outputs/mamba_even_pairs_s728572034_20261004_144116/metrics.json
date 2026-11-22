@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6738709637255228,
+      "val_loss": 6.379475564477488e-09,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.6738709637255228,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 5.917659836821258,
+      "time/train_seconds": 5.63378506526351,
+      "time/eval_seconds": 0.28384804632514715
+    }
+  ],
+  "epochs": 1,
+  "run_name": "mamba_even_pairs_s728572034_20261004_144116",
+  "timestamp": "2026-10-04T14:41:24.515775",
+  "seed": 728572034,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 6.519255094095123e-10,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  },
+  "best": {
+    "loss": 0.6738709637255228,
+    "val_loss": 6.379475564477488e-09,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 1
+  }
+}

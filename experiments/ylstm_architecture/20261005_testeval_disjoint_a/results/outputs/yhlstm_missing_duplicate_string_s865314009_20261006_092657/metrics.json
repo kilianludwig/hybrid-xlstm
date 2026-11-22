@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6709319132115138,
+      "val_loss": 0.6313198506832123,
+      "val/accuracy": 0.63671875,
+      "val/token_accuracy": 0.63671875,
+      "loss": 0.6709319132115138,
+      "accuracy": 0.63671875,
+      "token_accuracy": 0.63671875,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 57.660443268716335,
+      "time/train_seconds": 57.48250110447407,
+      "time/eval_seconds": 0.1779223270714283
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.1529738038121037,
+      "val_loss": 0.003181275176757481,
+      "val/accuracy": 0.998046875,
+      "val/token_accuracy": 0.998046875,
+      "loss": 0.1529738038121037,
+      "accuracy": 0.998046875,
+      "token_accuracy": 0.998046875,
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 58.348570400848985,
+      "time/train_seconds": 58.171785708516836,
+      "time/eval_seconds": 0.17676477879285812
+    }
+  ],
+  "epochs": 2,
+  "run_name": "yhlstm_missing_duplicate_string_s865314009_20261006_092657",
+  "timestamp": "2026-10-06T09:28:54.896930",
+  "seed": 865314009,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.0020048090373165905,
+    "test_count": 512,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.1529738038121037,
+    "val_loss": 0.003181275176757481,
+    "accuracy": 0.998046875,
+    "val_accuracy": 0.998046875,
+    "token_accuracy": 0.998046875,
+    "val_token_accuracy": 0.998046875,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 512,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

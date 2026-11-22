@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_mb_cycle_navigation_s1451051987_20261009_131855",
+  "timestamp": "2026-10-09T14:50:44.789422",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52459,
+    "total": 52459
+  },
+  "training_time_seconds": 5506.14,
+  "task": "cycle_navigation",
+  "model": "ylstm_mb",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 43.0131,
+  "train_seconds_total": 5302.11,
+  "eval_seconds_total": 203.56,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "ylstm_mb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52459,
+    "optimizer": "adamw",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

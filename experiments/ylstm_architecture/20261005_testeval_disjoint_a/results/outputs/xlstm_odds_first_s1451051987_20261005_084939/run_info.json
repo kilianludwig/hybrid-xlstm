@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_odds_first_s1451051987_20261005_084939",
+  "timestamp": "2026-10-05T08:57:43.052272",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51852,
+    "total": 51852
+  },
+  "training_time_seconds": 442.98,
+  "task": "odds_first",
+  "model": "xlstm",
+  "seed": 1451051987,
+  "epochs_timed": 5,
+  "mean_epoch_seconds": 88.523,
+  "train_seconds_total": 243.18,
+  "eval_seconds_total": 199.44,
+  "extra": {
+    "task": "odds_first",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51852,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

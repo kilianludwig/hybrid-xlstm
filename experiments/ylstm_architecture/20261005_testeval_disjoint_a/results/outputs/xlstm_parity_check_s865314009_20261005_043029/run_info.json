@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_parity_check_s865314009_20261005_043029",
+  "timestamp": "2026-10-05T04:57:53.339176",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51852,
+    "total": 51852
+  },
+  "training_time_seconds": 1640.41,
+  "task": "parity_check",
+  "model": "xlstm",
+  "seed": 865314009,
+  "epochs_timed": 54,
+  "mean_epoch_seconds": 30.3694,
+  "train_seconds_total": 1519.16,
+  "eval_seconds_total": 120.79,
+  "extra": {
+    "task": "parity_check",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51852,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

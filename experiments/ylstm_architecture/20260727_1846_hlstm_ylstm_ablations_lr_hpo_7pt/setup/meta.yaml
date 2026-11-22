@@ -1,0 +1,60 @@
+id: 20260727_1846_hlstm_ylstm_ablations_lr_hpo_7pt
+scale: 1.0
+epochs: 64
+batch_size: 128
+dataset_size: 50000
+val_split: 0.1
+early_stop_at_accuracy: 0.95
+chomsky_seq_len: 16
+mqar_seq_len: 16
+created_at: '2026-07-27T18:49:24.606186'
+task_count: 16
+model_count: 5
+label: hlstm_ylstm_ablations_lr_hpo_7pt_1seed
+models:
+- xlstm_hb
+- hlstm
+- ylstm
+- ylstm_hb
+- yhlstm
+seeds:
+- 42
+learning_rate_grid:
+- 1.0e-05
+- 3.0e-05
+- 0.0001
+- 0.0003
+- 0.001
+- 0.003
+- 0.01
+param_matching:
+  module: configs/param_matching.py
+  tolerance: 0.05
+  reference_model: lstm
+  reference_input_dim: 8
+  basis:
+    chomsky: bare backbone at reference_input_dim
+    mqar: full wrapped model at MQAR vocab
+  matched_widths:
+    chomsky:
+      xlstm_hb:
+        hidden_dim: 46
+      hlstm:
+        hidden_dim: 40
+      ylstm:
+        hidden_dim: 74
+      ylstm_hb:
+        hidden_dim: 44
+      yhlstm:
+        hidden_dim: 38
+    mqar:
+      xlstm_hb:
+        hidden_dim: 64
+      hlstm:
+        hidden_dim: 58
+      ylstm:
+        hidden_dim: 76
+      ylstm_hb:
+        hidden_dim: 61
+      yhlstm:
+        hidden_dim: 54

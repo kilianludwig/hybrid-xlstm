@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_even_pairs_s338898589_20261004_194601",
+  "timestamp": "2026-10-04T19:46:57.983169",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52320,
+    "total": 52320
+  },
+  "training_time_seconds": 50.75,
+  "task": "even_pairs",
+  "model": "slstm",
+  "seed": 338898589,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 50.6815,
+  "train_seconds_total": 46.93,
+  "eval_seconds_total": 3.75,
+  "extra": {
+    "task": "even_pairs",
+    "model": "slstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52320,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

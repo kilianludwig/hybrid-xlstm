@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_bare_modular_arithmetic_brackets_s1451051987_20261005_191642",
+  "timestamp": "2026-10-05T19:21:19.812255",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 53127,
+    "total": 53127
+  },
+  "training_time_seconds": 272.36,
+  "task": "modular_arithmetic_brackets",
+  "model": "slstm_bare",
+  "seed": 1451051987,
+  "epochs_timed": 18,
+  "mean_epoch_seconds": 15.1165,
+  "train_seconds_total": 261.6,
+  "eval_seconds_total": 10.49,
+  "extra": {
+    "task": "modular_arithmetic_brackets",
+    "model": "slstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 53127,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

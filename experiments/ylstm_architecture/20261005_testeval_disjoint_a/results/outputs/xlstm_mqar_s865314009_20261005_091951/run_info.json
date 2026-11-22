@@ -1,0 +1,32 @@
+{
+  "run_name": "xlstm_mqar_s865314009_20261005_091951",
+  "timestamp": "2026-10-05T09:20:31.367831",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 133084,
+    "total": 133084
+  },
+  "training_time_seconds": 29.32,
+  "task": "mqar",
+  "model": "xlstm",
+  "seed": 865314009,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 29.2175,
+  "train_seconds_total": 27.13,
+  "eval_seconds_total": 2.09,
+  "extra": {
+    "task": "mqar",
+    "model": "xlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 133084,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

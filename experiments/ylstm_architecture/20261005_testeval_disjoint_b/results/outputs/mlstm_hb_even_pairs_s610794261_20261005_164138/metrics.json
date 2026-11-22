@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6529102599658905,
+      "val_loss": 0.5338533200323582,
+      "val/accuracy": 0.7194,
+      "val/token_accuracy": 0.7194,
+      "loss": 0.6529102599658905,
+      "accuracy": 0.7194,
+      "token_accuracy": 0.7194,
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 4.075062696821988,
+      "time/train_seconds": 3.901563490740955,
+      "time/eval_seconds": 0.17347639240324497
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.20362103410409585,
+      "val_loss": 0.007586301314586308,
+      "val/accuracy": 0.9984,
+      "val/token_accuracy": 0.9984,
+      "loss": 0.20362103410409585,
+      "accuracy": 0.9984,
+      "token_accuracy": 0.9984,
+      "lr": 0.0001,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 4.229475675150752,
+      "time/train_seconds": 4.0491517605260015,
+      "time/eval_seconds": 0.1803010469302535
+    }
+  ],
+  "epochs": 2,
+  "run_name": "mlstm_hb_even_pairs_s610794261_20261005_164138",
+  "timestamp": "2026-10-05T16:41:48.770488",
+  "seed": 610794261,
+  "final": {
+    "test_accuracy": 0.9992,
+    "test_token_accuracy": 0.9992,
+    "test_loss": 0.016479819153028076,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  },
+  "best": {
+    "loss": 0.20362103410409585,
+    "val_loss": 0.007586301314586308,
+    "accuracy": 0.9984,
+    "val_accuracy": 0.9984,
+    "token_accuracy": 0.9984,
+    "val_token_accuracy": 0.9984,
+    "test_accuracy": 0.9992,
+    "test_token_accuracy": 0.9992,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 2
+  }
+}

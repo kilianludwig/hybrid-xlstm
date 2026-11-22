@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_compute_sqrt_s865314009_20261004_143657",
+  "timestamp": "2026-10-04T14:38:12.013299",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50772,
+    "total": 50772
+  },
+  "training_time_seconds": 70.57,
+  "task": "compute_sqrt",
+  "model": "gru",
+  "seed": 865314009,
+  "epochs_timed": 17,
+  "mean_epoch_seconds": 4.1402,
+  "train_seconds_total": 57.62,
+  "eval_seconds_total": 12.76,
+  "extra": {
+    "task": "compute_sqrt",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50772,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

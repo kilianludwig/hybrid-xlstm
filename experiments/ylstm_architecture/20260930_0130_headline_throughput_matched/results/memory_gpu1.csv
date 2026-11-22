@@ -1,0 +1,19 @@
+model,chunk_size,seq_len,batch_size,hidden_dim,num_layers,input_dim,parameters,inference_peak_mib,inference_status,train_peak_mib,train_status,device_total_mib,device,gpu,status,backend,error
+ylstm_hb_c1,1,16,128,44,2,8,52558,14.49,ok,66.4,ok,11165.44,cuda,1,ok,,
+ylstm_hb_c1,1,64,128,44,2,8,52558,30.12,ok,219.59,ok,11165.44,cuda,1,ok,,
+ylstm_hb_c1,1,256,128,44,2,8,52558,67.09,ok,824.34,ok,11165.44,cuda,1,ok,,
+ylstm_hb_c1,1,1024,128,44,2,8,52558,220.47,ok,3252.34,ok,11165.44,cuda,1,ok,,
+ylstm_hb_c1,1,2048,128,44,2,8,52558,424.47,ok,6488.34,ok,11165.44,cuda,1,ok,,
+ylstm_hb_c1,1,4096,128,44,2,8,52558,826.47,ok,10907.6,oom,11165.44,cuda,1,oom,,"CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 10.90 GiB of which 3.38 MiB is free. Including non-PyTorch memory, this process has 10.90 GiB memory in use. Of the allocated memory 10.65 GiB is allocated by PyTorch, and 77.80 MiB is reserved by PyTorch but unallocated. "
+mamba,,16,128,56,2,8,52360,98.62,ok,206.25,ok,11165.44,cuda,1,ok,mambapy (fallback: GPU sm_61 < sm_70),
+mamba,,64,128,56,2,8,52360,345.96,ok,771.73,ok,11165.44,cuda,1,ok,mambapy (fallback: GPU sm_61 < sm_70),
+mamba,,256,128,56,2,8,52360,1330.96,ok,3032.08,ok,11165.44,cuda,1,ok,mambapy (fallback: GPU sm_61 < sm_70),
+mamba,,1024,128,56,2,8,52360,5274.46,ok,10728.96,oom,11165.44,cuda,1,oom,mambapy (fallback: GPU sm_61 < sm_70),"CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 10.90 GiB of which 221.38 MiB is free. Including non-PyTorch memory, this process has 10.68 GiB memory in use. Of the allocated memory 10.04 GiB is allocated by PyTorch, and 482.17 MiB is reserved by PyTorch but unalloca"
+mamba,,2048,128,56,2,8,52360,10531.84,oom,,,11165.44,cuda,1,oom,mambapy (fallback: GPU sm_61 < sm_70),"CUDA out of memory. Tried to allocate 896.00 MiB. GPU 0 has a total capacity of 10.90 GiB of which 531.38 MiB is free. Including non-PyTorch memory, this process has 10.38 GiB memory in use. Of the allocated memory 9.41 GiB is allocated by PyTorch, and 821.54 MiB is reserved by PyTorch but unallocat"
+mamba,,4096,128,56,2,8,52360,11980.8,oom,,,11165.44,cuda,1,oom,mambapy (fallback: GPU sm_61 < sm_70),"CUDA out of memory. Tried to allocate 3.50 GiB. GPU 0 has a total capacity of 10.90 GiB of which 2.49 GiB is free. Including non-PyTorch memory, this process has 8.41 GiB memory in use. Of the allocated memory 8.20 GiB is allocated by PyTorch, and 49.54 MiB is reserved by PyTorch but unallocated. If"
+mlstm,,16,128,52,2,8,51584,36.36,ok,60.08,ok,11165.44,cuda,1,ok,,
+mlstm,,64,128,52,2,8,51584,147.78,ok,263.9,ok,11165.44,cuda,1,ok,,
+mlstm,,256,128,52,2,8,51584,1405.76,ok,2250.95,ok,11165.44,cuda,1,ok,,
+mlstm,,1024,128,52,2,8,51584,10977.28,oom,,,11165.44,cuda,1,oom,,"CUDA out of memory. Tried to allocate 2.00 GiB. GPU 0 has a total capacity of 10.90 GiB of which 2.00 GiB is free. Including non-PyTorch memory, this process has 8.90 GiB memory in use. Of the allocated memory 8.72 GiB is allocated by PyTorch, and 13.36 MiB is reserved by PyTorch but unallocated. If"
+mlstm,,2048,128,52,2,8,51584,17838.08,oom,,,11165.44,cuda,1,oom,,"CUDA out of memory. Tried to allocate 8.01 GiB. GPU 0 has a total capacity of 10.90 GiB of which 1.20 GiB is free. Including non-PyTorch memory, this process has 9.70 GiB memory in use. Of the allocated memory 9.41 GiB is allocated by PyTorch, and 125.36 MiB is reserved by PyTorch but unallocated. I"
+mlstm,,4096,128,52,2,8,51584,35655.68,oom,,,11165.44,cuda,1,oom,,"CUDA out of memory. Tried to allocate 32.02 GiB. GPU 0 has a total capacity of 10.90 GiB of which 7.70 GiB is free. Including non-PyTorch memory, this process has 3.20 GiB memory in use. Of the allocated memory 2.80 GiB is allocated by PyTorch, and 235.36 MiB is reserved by PyTorch but unallocated. "

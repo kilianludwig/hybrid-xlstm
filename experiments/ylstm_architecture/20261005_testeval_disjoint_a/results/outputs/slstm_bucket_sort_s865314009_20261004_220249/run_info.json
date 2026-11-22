@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_bucket_sort_s865314009_20261004_220249",
+  "timestamp": "2026-10-04T22:04:08.544909",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52659,
+    "total": 52659
+  },
+  "training_time_seconds": 58.81,
+  "task": "bucket_sort",
+  "model": "slstm",
+  "seed": 865314009,
+  "epochs_timed": 1,
+  "mean_epoch_seconds": 58.7835,
+  "train_seconds_total": 39.43,
+  "eval_seconds_total": 19.36,
+  "extra": {
+    "task": "bucket_sort",
+    "model": "slstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52659,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

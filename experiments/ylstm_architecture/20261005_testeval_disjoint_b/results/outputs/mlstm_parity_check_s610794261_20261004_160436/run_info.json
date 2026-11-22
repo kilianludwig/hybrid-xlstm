@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_parity_check_s610794261_20261004_160436",
+  "timestamp": "2026-10-04T16:08:00.960124",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51384,
+    "total": 51384
+  },
+  "training_time_seconds": 203.15,
+  "task": "parity_check",
+  "model": "mlstm",
+  "seed": 610794261,
+  "epochs_timed": 39,
+  "mean_epoch_seconds": 5.2021,
+  "train_seconds_total": 193.76,
+  "eval_seconds_total": 9.12,
+  "extra": {
+    "task": "parity_check",
+    "model": "mlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51384,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

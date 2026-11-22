@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c8_even_pairs_s610794261_20261009_105243",
+  "timestamp": "2026-10-09T10:53:04.981113",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52390,
+    "total": 52390
+  },
+  "training_time_seconds": 20.03,
+  "task": "even_pairs",
+  "model": "ylstm_hb_c8",
+  "seed": 610794261,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 9.979,
+  "train_seconds_total": 19.16,
+  "eval_seconds_total": 0.79,
+  "extra": {
+    "task": "even_pairs",
+    "model": "ylstm_hb_c8",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52390,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

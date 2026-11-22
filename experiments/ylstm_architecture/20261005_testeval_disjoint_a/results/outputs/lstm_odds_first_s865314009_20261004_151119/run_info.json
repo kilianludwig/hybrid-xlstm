@@ -1,0 +1,32 @@
+{
+  "run_name": "lstm_odds_first_s865314009_20261004_151119",
+  "timestamp": "2026-10-04T15:11:36.537890",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50824,
+    "total": 50824
+  },
+  "training_time_seconds": 14.94,
+  "task": "odds_first",
+  "model": "lstm",
+  "seed": 865314009,
+  "epochs_timed": 8,
+  "mean_epoch_seconds": 1.8486,
+  "train_seconds_total": 11.62,
+  "eval_seconds_total": 3.17,
+  "extra": {
+    "task": "odds_first",
+    "model": "lstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50824,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "mamba_modular_arithmetic_brackets_s1451051987_20261004_150152",
+  "timestamp": "2026-10-04T15:14:56.625183",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52879,
+    "total": 52879
+  },
+  "training_time_seconds": 780.03,
+  "task": "modular_arithmetic_brackets",
+  "model": "mamba",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 6.0907,
+  "train_seconds_total": 742.29,
+  "eval_seconds_total": 37.32,
+  "extra": {
+    "task": "modular_arithmetic_brackets",
+    "model": "mamba",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52879,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

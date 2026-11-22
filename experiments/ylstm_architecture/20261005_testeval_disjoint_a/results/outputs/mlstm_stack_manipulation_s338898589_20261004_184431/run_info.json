@@ -1,0 +1,32 @@
+{
+  "run_name": "mlstm_stack_manipulation_s338898589_20261004_184431",
+  "timestamp": "2026-10-04T18:53:01.835519",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51607,
+    "total": 51607
+  },
+  "training_time_seconds": 499.76,
+  "task": "stack_manipulation",
+  "model": "mlstm",
+  "seed": 338898589,
+  "epochs_timed": 33,
+  "mean_epoch_seconds": 15.1227,
+  "train_seconds_total": 367.34,
+  "eval_seconds_total": 131.71,
+  "extra": {
+    "task": "stack_manipulation",
+    "model": "mlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51607,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.08,
+    "warmup_epochs": 10
+  }
+}

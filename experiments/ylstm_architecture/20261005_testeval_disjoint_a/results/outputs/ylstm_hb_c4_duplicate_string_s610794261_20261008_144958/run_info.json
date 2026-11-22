@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c4_duplicate_string_s610794261_20261008_144958",
+  "timestamp": "2026-10-08T14:55:49.688534",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52390,
+    "total": 52390
+  },
+  "training_time_seconds": 329.37,
+  "task": "duplicate_string",
+  "model": "ylstm_hb_c4",
+  "seed": 610794261,
+  "epochs_timed": 7,
+  "mean_epoch_seconds": 47.0256,
+  "train_seconds_total": 182.94,
+  "eval_seconds_total": 146.24,
+  "extra": {
+    "task": "duplicate_string",
+    "model": "ylstm_hb_c4",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52390,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

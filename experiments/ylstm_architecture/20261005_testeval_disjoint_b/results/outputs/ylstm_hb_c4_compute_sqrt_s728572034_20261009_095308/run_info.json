@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c4_compute_sqrt_s728572034_20261009_095308",
+  "timestamp": "2026-10-09T10:15:06.443520",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52390,
+    "total": 52390
+  },
+  "training_time_seconds": 1311.25,
+  "task": "compute_sqrt",
+  "model": "ylstm_hb_c4",
+  "seed": 728572034,
+  "epochs_timed": 61,
+  "mean_epoch_seconds": 21.4778,
+  "train_seconds_total": 1041.8,
+  "eval_seconds_total": 268.34,
+  "extra": {
+    "task": "compute_sqrt",
+    "model": "ylstm_hb_c4",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52390,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

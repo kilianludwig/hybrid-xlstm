@@ -1,0 +1,75 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.6982163510764369,
+      "val_loss": 0.6950140684843064,
+      "val/accuracy": 0.4958,
+      "val/token_accuracy": 0.4958,
+      "loss": 0.6982163510764369,
+      "accuracy": 0.4958,
+      "token_accuracy": 0.4958,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 9.88020996376872,
+      "time/train_seconds": 9.481434885412455,
+      "time/eval_seconds": 0.3987514153122902
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.6903990823239945,
+      "val_loss": 0.500938693434,
+      "val/accuracy": 0.7234,
+      "val/token_accuracy": 0.7234,
+      "loss": 0.6903990823239945,
+      "accuracy": 0.7234,
+      "token_accuracy": 0.7234,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 9.761166146025062,
+      "time/train_seconds": 9.369201069697738,
+      "time/eval_seconds": 0.3919395674020052
+    },
+    {
+      "epoch": 3,
+      "train/loss": 0.3932425637869496,
+      "val_loss": 0.0001324752152754627,
+      "val/accuracy": 1.0,
+      "val/token_accuracy": 1.0,
+      "loss": 0.3932425637869496,
+      "accuracy": 1.0,
+      "token_accuracy": 1.0,
+      "lr": 0.003,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 10.156655305065215,
+      "time/train_seconds": 9.754048437811434,
+      "time/eval_seconds": 0.4025810621678829
+    }
+  ],
+  "epochs": 3,
+  "run_name": "ylstm_hb_c8_even_pairs_s728572034_20261009_105305",
+  "timestamp": "2026-10-09T10:53:37.027634",
+  "seed": 728572034,
+  "final": {
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_loss": 0.00011965504446607156,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 3
+  },
+  "best": {
+    "loss": 0.3932425637869496,
+    "val_loss": 0.0001324752152754627,
+    "accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "token_accuracy": 1.0,
+    "val_token_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_token_accuracy": 1.0,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 3
+  }
+}

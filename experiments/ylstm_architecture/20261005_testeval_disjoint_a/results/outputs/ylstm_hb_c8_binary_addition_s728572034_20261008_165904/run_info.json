@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c8_binary_addition_s728572034_20261008_165904",
+  "timestamp": "2026-10-08T17:03:28.854296",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52485,
+    "total": 52485
+  },
+  "training_time_seconds": 256.25,
+  "task": "binary_addition",
+  "model": "ylstm_hb_c8",
+  "seed": 728572034,
+  "epochs_timed": 14,
+  "mean_epoch_seconds": 18.2789,
+  "train_seconds_total": 171.93,
+  "eval_seconds_total": 83.97,
+  "extra": {
+    "task": "binary_addition",
+    "model": "ylstm_hb_c8",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52485,
+    "optimizer": "adamw",
+    "learning_rate": 0.003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

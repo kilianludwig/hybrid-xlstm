@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_solve_equation_s1451051987_20261005_034850",
+  "timestamp": "2026-10-05T04:03:50.174011",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52775,
+    "total": 52775
+  },
+  "training_time_seconds": 894.2,
+  "task": "solve_equation",
+  "model": "transformer",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 6.9731,
+  "train_seconds_total": 820.87,
+  "eval_seconds_total": 71.67,
+  "extra": {
+    "task": "solve_equation",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52775,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

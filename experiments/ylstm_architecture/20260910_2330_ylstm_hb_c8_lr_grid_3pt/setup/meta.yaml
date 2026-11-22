@@ -1,0 +1,70 @@
+id: 20260910_2330_ylstm_hb_c8_lr_grid_3pt
+scale: 1.0
+epochs: 64
+batch_size: 128
+dataset_size: 50000
+val_split: 0.1
+early_stop_at_accuracy: 0.95
+chomsky_seq_len: 16
+mqar_seq_len: 16
+created_at: '2026-09-10T23:37:05.933953'
+task_count: 16
+model_count: 1
+label: ylstm_hb_c8_lr_grid_3pt
+models:
+- ylstm_hb_c8
+base_model: ylstm_hb
+chunk_sizes:
+- 8
+feedback_firings_at_seq16:
+  ylstm_hb_c8: 1
+seeds:
+- 42
+runtime_group: ylstm_architecture
+hpo_axis: learning_rate
+lr_grid:
+  kind: 3-point bracket around the base model's best LR
+  offsets_on_ladder:
+  - -1
+  - 0
+  - 1
+  ladder:
+  - 1.0e-05
+  - 3.0e-05
+  - 0.0001
+  - 0.0003
+  - 0.001
+  - 0.003
+  - 0.01
+  source: 20260727_1846_hlstm_ylstm_ablations_lr_hpo_7pt/results/report/data/lr_hpo_best.csv
+  base_best_lr_per_task:
+    binary_addition: 0.003
+    binary_multiplication: 0.001
+    bucket_sort: 0.001
+    compute_sqrt: 0.001
+    cycle_navigation: 3.0e-05
+    duplicate_string: 0.01
+    even_pairs: 0.003
+    missing_duplicate_string: 0.001
+    modular_arithmetic: 0.0003
+    modular_arithmetic_brackets: 0.0001
+    mqar: 0.0003
+    odds_first: 0.001
+    parity_check: 3.0e-05
+    reverse_string: 0.0003
+    solve_equation: 0.0001
+    stack_manipulation: 0.001
+param_matching:
+  module: configs/param_matching.py
+  tolerance: 0.05
+  reference_model: lstm
+  reference_input_dim: 8
+  basis:
+    chomsky: bare backbone at reference_input_dim
+    mqar: full wrapped model at MQAR vocab
+  inherited_from: ylstm_hb
+  matched_widths:
+    chomsky:
+      hidden_dim: 44
+    mqar:
+      hidden_dim: 61

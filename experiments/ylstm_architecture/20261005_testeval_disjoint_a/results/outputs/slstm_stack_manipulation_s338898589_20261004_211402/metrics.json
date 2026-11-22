@@ -1,0 +1,90 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train/loss": 0.384767268436214,
+      "val_loss": 0.39099281281232834,
+      "val/accuracy": 0.6432,
+      "val/token_accuracy": 0.9085976556501562,
+      "loss": 0.384767268436214,
+      "accuracy": 0.6432,
+      "token_accuracy": 0.9085976556501562,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 167.4385751900263,
+      "time/train_seconds": 85.46911184908822,
+      "time/eval_seconds": 81.96942935697734
+    },
+    {
+      "epoch": 2,
+      "train/loss": 0.04848579290849618,
+      "val_loss": 0.0682879435713403,
+      "val/accuracy": 0.9358,
+      "val/token_accuracy": 0.9854971079527035,
+      "loss": 0.04848579290849618,
+      "accuracy": 0.9358,
+      "token_accuracy": 0.9854971079527035,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 167.34126753825694,
+      "time/train_seconds": 85.59851585701108,
+      "time/eval_seconds": 81.74270739685744
+    },
+    {
+      "epoch": 3,
+      "train/loss": 0.02265460729396667,
+      "val_loss": 0.08814514642581343,
+      "val/accuracy": 0.9216,
+      "val/token_accuracy": 0.9840297565220358,
+      "loss": 0.02265460729396667,
+      "accuracy": 0.9216,
+      "token_accuracy": 0.9840297565220358,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 167.18570849718526,
+      "time/train_seconds": 85.43198313610628,
+      "time/eval_seconds": 81.75368749676272
+    },
+    {
+      "epoch": 4,
+      "train/loss": 0.011478834438599652,
+      "val_loss": 0.03139302119670902,
+      "val/accuracy": 0.9778,
+      "val/token_accuracy": 0.9951713900595471,
+      "loss": 0.011478834438599652,
+      "accuracy": 0.9778,
+      "token_accuracy": 0.9951713900595471,
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "time/epoch_seconds": 167.31528016831726,
+      "time/train_seconds": 85.58667984418571,
+      "time/eval_seconds": 81.72856265073642
+    }
+  ],
+  "epochs": 4,
+  "run_name": "slstm_stack_manipulation_s338898589_20261004_211402",
+  "timestamp": "2026-10-04T21:26:39.999061",
+  "seed": 338898589,
+  "final": {
+    "test_accuracy": 0.9764,
+    "test_token_accuracy": 0.9952477936184657,
+    "test_loss": 0.03180911924282555,
+    "test_count": 5000,
+    "test_size": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 4
+  },
+  "best": {
+    "loss": 0.011478834438599652,
+    "val_loss": 0.03139302119670902,
+    "accuracy": 0.9778,
+    "val_accuracy": 0.9778,
+    "token_accuracy": 0.9951713900595471,
+    "val_token_accuracy": 0.9951713900595471,
+    "test_accuracy": 0.9764,
+    "test_token_accuracy": 0.9952477936184657,
+    "test_count": 5000,
+    "test_seed": 43,
+    "best_val_epoch": 4
+  }
+}

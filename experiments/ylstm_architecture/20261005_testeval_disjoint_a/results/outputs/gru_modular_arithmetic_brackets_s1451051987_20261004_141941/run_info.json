@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_modular_arithmetic_brackets_s1451051987_20261004_141941",
+  "timestamp": "2026-10-04T14:20:52.752038",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 53055,
+    "total": 53055
+  },
+  "training_time_seconds": 65.75,
+  "task": "modular_arithmetic_brackets",
+  "model": "gru",
+  "seed": 1451051987,
+  "epochs_timed": 22,
+  "mean_epoch_seconds": 2.9778,
+  "train_seconds_total": 55.3,
+  "eval_seconds_total": 10.21,
+  "extra": {
+    "task": "modular_arithmetic_brackets",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 53055,
+    "optimizer": "adam",
+    "learning_rate": 0.003,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_name": "hlstm_mqar_s338898589_20261005_141705",
+  "timestamp": "2026-10-05T15:21:06.445378",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 133508,
+    "total": 133508
+  },
+  "training_time_seconds": 3830.3,
+  "task": "mqar",
+  "model": "hlstm",
+  "seed": 338898589,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 29.8917,
+  "train_seconds_total": 3652.82,
+  "eval_seconds_total": 173.31,
+  "extra": {
+    "task": "mqar",
+    "model": "hlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 133508,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

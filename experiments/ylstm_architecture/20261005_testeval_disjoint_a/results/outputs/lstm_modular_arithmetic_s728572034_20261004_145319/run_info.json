@@ -1,0 +1,32 @@
+{
+  "run_name": "lstm_modular_arithmetic_s728572034_20261004_145319",
+  "timestamp": "2026-10-04T15:01:50.468177",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52859,
+    "total": 52859
+  },
+  "training_time_seconds": 507.35,
+  "task": "modular_arithmetic",
+  "model": "lstm",
+  "seed": 728572034,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 3.9582,
+  "train_seconds_total": 438.5,
+  "eval_seconds_total": 68.14,
+  "extra": {
+    "task": "modular_arithmetic",
+    "model": "lstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52859,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

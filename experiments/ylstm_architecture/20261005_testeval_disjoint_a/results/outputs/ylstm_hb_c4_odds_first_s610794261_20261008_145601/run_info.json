@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c4_odds_first_s610794261_20261008_145601",
+  "timestamp": "2026-10-08T15:17:26.561741",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52390,
+    "total": 52390
+  },
+  "training_time_seconds": 1275.03,
+  "task": "odds_first",
+  "model": "ylstm_hb_c4",
+  "seed": 610794261,
+  "epochs_timed": 48,
+  "mean_epoch_seconds": 26.5448,
+  "train_seconds_total": 874.99,
+  "eval_seconds_total": 399.15,
+  "extra": {
+    "task": "odds_first",
+    "model": "ylstm_hb_c4",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52390,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

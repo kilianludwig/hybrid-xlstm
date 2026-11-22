@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_stack_manipulation_s1451051987_20261004_142852",
+  "timestamp": "2026-10-04T14:29:20.034451",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51527,
+    "total": 51527
+  },
+  "training_time_seconds": 16.33,
+  "task": "stack_manipulation",
+  "model": "gru",
+  "seed": 1451051987,
+  "epochs_timed": 2,
+  "mean_epoch_seconds": 8.1295,
+  "train_seconds_total": 13.21,
+  "eval_seconds_total": 3.05,
+  "extra": {
+    "task": "stack_manipulation",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51527,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

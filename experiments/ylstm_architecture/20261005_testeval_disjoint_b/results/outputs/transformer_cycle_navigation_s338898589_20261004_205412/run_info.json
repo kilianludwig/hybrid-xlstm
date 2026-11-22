@@ -1,0 +1,35 @@
+{
+  "run_name": "transformer_cycle_navigation_s338898589_20261004_205412",
+  "timestamp": "2026-10-04T20:59:51.394097",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52343,
+    "total": 52343
+  },
+  "training_time_seconds": 337.55,
+  "task": "cycle_navigation",
+  "model": "transformer",
+  "seed": 338898589,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 2.6333,
+  "train_seconds_total": 322.11,
+  "eval_seconds_total": 14.95,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "transformer",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52343,
+    "optimizer": "adamw",
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

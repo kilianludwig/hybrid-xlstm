@@ -1,0 +1,32 @@
+{
+  "run_name": "hlstm_cycle_navigation_s728572034_20261005_115014",
+  "timestamp": "2026-10-05T12:41:03.296451",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50163,
+    "total": 50163
+  },
+  "training_time_seconds": 3045.33,
+  "task": "cycle_navigation",
+  "model": "hlstm",
+  "seed": 728572034,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 23.7852,
+  "train_seconds_total": 2890.84,
+  "eval_seconds_total": 153.67,
+  "extra": {
+    "task": "cycle_navigation",
+    "model": "hlstm",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50163,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

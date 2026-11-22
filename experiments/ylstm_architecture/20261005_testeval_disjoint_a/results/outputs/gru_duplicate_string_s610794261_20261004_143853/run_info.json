@@ -1,0 +1,32 @@
+{
+  "run_name": "gru_duplicate_string_s610794261_20261004_143853",
+  "timestamp": "2026-10-04T14:39:35.018714",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 50772,
+    "total": 50772
+  },
+  "training_time_seconds": 37.68,
+  "task": "duplicate_string",
+  "model": "gru",
+  "seed": 610794261,
+  "epochs_timed": 3,
+  "mean_epoch_seconds": 12.5328,
+  "train_seconds_total": 31.84,
+  "eval_seconds_total": 5.76,
+  "extra": {
+    "task": "duplicate_string",
+    "model": "gru",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 50772,
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

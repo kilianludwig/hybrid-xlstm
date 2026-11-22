@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_hb_parity_check_s610794261_20261005_194422",
+  "timestamp": "2026-10-05T20:01:15.452735",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 51348,
+    "total": 51348
+  },
+  "training_time_seconds": 1010.91,
+  "task": "parity_check",
+  "model": "slstm_hb",
+  "seed": 610794261,
+  "epochs_timed": 75,
+  "mean_epoch_seconds": 13.4739,
+  "train_seconds_total": 973.72,
+  "eval_seconds_total": 36.82,
+  "extra": {
+    "task": "parity_check",
+    "model": "slstm_hb",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 51348,
+    "optimizer": "adamw",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

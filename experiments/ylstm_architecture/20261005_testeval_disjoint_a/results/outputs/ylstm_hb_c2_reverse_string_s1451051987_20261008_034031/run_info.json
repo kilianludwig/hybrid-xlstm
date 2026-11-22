@@ -1,0 +1,32 @@
+{
+  "run_name": "ylstm_hb_c2_reverse_string_s1451051987_20261008_034031",
+  "timestamp": "2026-10-08T04:26:43.887476",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 52390,
+    "total": 52390
+  },
+  "training_time_seconds": 2756.77,
+  "task": "reverse_string",
+  "model": "ylstm_hb_c2",
+  "seed": 1451051987,
+  "epochs_timed": 56,
+  "mean_epoch_seconds": 49.2132,
+  "train_seconds_total": 1925.96,
+  "eval_seconds_total": 829.98,
+  "extra": {
+    "task": "reverse_string",
+    "model": "ylstm_hb_c2",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 52390,
+    "optimizer": "adamw",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}

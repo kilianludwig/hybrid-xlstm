@@ -1,0 +1,32 @@
+{
+  "run_name": "slstm_bare_mqar_s1451051987_20261005_205902",
+  "timestamp": "2026-10-05T21:29:28.658951",
+  "device": "cuda",
+  "parameters": {
+    "trainable": 132096,
+    "total": 132096
+  },
+  "training_time_seconds": 1817.13,
+  "task": "mqar",
+  "model": "slstm_bare",
+  "seed": 1451051987,
+  "epochs_timed": 128,
+  "mean_epoch_seconds": 14.1821,
+  "train_seconds_total": 1744.84,
+  "eval_seconds_total": 70.47,
+  "extra": {
+    "task": "mqar",
+    "model": "slstm_bare",
+    "batch_size": 128,
+    "dataset_size": 50000,
+    "parameter_count": 132096,
+    "optimizer": "adamw",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "grad_clip_max_norm": 1.0,
+    "betas": null,
+    "scheduler": null,
+    "warmup_pct": 0.05,
+    "warmup_epochs": 6
+  }
+}
